@@ -1,0 +1,17 @@
+{
+  "source": "LIBSVM Data: Classification (Multi-class)",
+  "files": [
+    {
+      "dataset": "covtype",
+      "file": "covtype.scale.bz2",
+      "sha256": "c0a2544b2740b435d0d51934116c7d4762f4154fa0c032fe9f9b4180717c4acf",
+      "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/covtype.scale.bz2"
+    },
+    {
+      "dataset": "mnist",
+      "file": "mnist.scale.bz2",
+      "sha256": "32664896e8c00cdf18cdc319311a4326551410443460805ef92ae2b313132f37",
+      "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/mnist.scale.bz2"
+    }
+  ]
+}

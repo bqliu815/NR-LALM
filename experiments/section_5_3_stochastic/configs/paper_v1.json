@@ -1,0 +1,80 @@
+{
+  "protocol": "section_5_3_stochastic_kkt_v1",
+  "protocol_status": "PAPER_FROZEN",
+  "constraint_model": "independent_spheres",
+  "datasets": [
+    {
+      "name": "covtype",
+      "path": "data/source/covtype.scale.bz2",
+      "expected_raw_dimension": 54,
+      "expected_classes": 7,
+      "expected_full_samples": 581012,
+      "source_sha256": "c0a2544b2740b435d0d51934116c7d4762f4154fa0c032fe9f9b4180717c4acf",
+      "selection_seed": 20264001
+    },
+    {
+      "name": "mnist",
+      "path": "data/source/mnist.scale.bz2",
+      "expected_raw_dimension": 780,
+      "expected_classes": 10,
+      "expected_full_samples": 60000,
+      "source_sha256": "32664896e8c00cdf18cdc319311a4326551410443460805ef92ae2b313132f37",
+      "selection_seed": 20264002
+    }
+  ],
+  "displayed_methods": [
+    "NR-LALM",
+    "NR-LALM+SOC",
+    "MLALM",
+    "S-SQP"
+  ],
+  "initialization": {
+    "base": "shared_bias_basis",
+    "subset_size": 4096,
+    "subset_seed_offset": 9000,
+    "projected_gradient_steps": 4,
+    "projected_gradient_step_size": 0.5,
+    "radial_scale": 0.95,
+    "component_gradient_cost": 20480
+  },
+  "target_component_calls": 262144,
+  "curve_points": 17,
+  "oracle_seed_base": 20420001,
+  "oracle_repeats": 10,
+  "required_linear_residual": 1e-10,
+  "formal_rule": {
+    "minimum_jacobian_sigma": 0.5
+  },
+  "proposed": {
+    "rho": 300.0,
+    "beta": 48.0
+  },
+  "proposed_checkpoint_scale": 4,
+  "proposed_batch_scale": 1,
+  "mlalm_batch_size": 1,
+  "mlalm": {
+    "eta_coefficient": 0.1,
+    "beta_coefficient": 3.0,
+    "rho_over_beta": 0.03,
+    "alpha": 0.5
+  },
+  "s_sqp": {
+    "batch_size": 1024,
+    "tau_initial": 1.0,
+    "epsilon": 1e-6,
+    "sigma": 0.5,
+    "xi_initial": 1.0,
+    "beta": 1.0,
+    "theta": 10.0,
+    "sample_without_replacement": true
+  },
+  "display": {
+    "aggregation": "pointwise arithmetic mean over ten independent stochastic-oracle streams",
+    "horizontal_axis": "Stochastic-gradient evaluations",
+    "vertical_axis": "Mean squared KKT residual",
+    "y_scale": "log",
+    "smoothing": false,
+    "running_best": false,
+    "uncertainty_band": false
+  }
+}

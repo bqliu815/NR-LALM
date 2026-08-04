@@ -1,0 +1,303 @@
+{
+  "datasets": [
+    {
+      "dimension": 1000000,
+      "display_name": "avazu-app",
+      "family": "avazu",
+      "highdim_stratum": true,
+      "name": "avazu-app",
+      "official_samples": 14596137,
+      "path": "data/libsvm_binary_suite_v1/derived/avazu-app.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "avazu-app.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 1000000,
+      "display_name": "avazu-site",
+      "family": "avazu",
+      "highdim_stratum": true,
+      "name": "avazu-site",
+      "official_samples": 25832830,
+      "path": "data/libsvm_binary_suite_v1/derived/avazu-site.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "avazu-site.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 1000000,
+      "display_name": "criteo",
+      "family": "criteo",
+      "highdim_stratum": true,
+      "name": "criteo",
+      "official_samples": 45840617,
+      "path": "data/libsvm_binary_suite_v1/derived/criteo.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "criteo.kaggle2014.svm.tar.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo.kaggle2014.svm.tar.xz",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 7129,
+      "display_name": "duke breast-cancer",
+      "family": "duke-breast-cancer",
+      "highdim_stratum": true,
+      "name": "duke-breast-cancer",
+      "official_samples": 44,
+      "path": "data/libsvm_binary_suite_v1/derived/duke-breast-cancer.n44.seed20260731.bz2",
+      "sampling": "full official training file",
+      "source_filename": "duke.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/duke.bz2",
+      "used_samples": 44
+    },
+    {
+      "dimension": 5000,
+      "display_name": "gisette",
+      "family": "gisette",
+      "highdim_stratum": true,
+      "name": "gisette",
+      "official_samples": 6000,
+      "path": "data/libsvm_binary_suite_v1/derived/gisette.n6000.seed20260731.bz2",
+      "sampling": "full official training file",
+      "source_filename": "gisette_scale.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/gisette_scale.bz2",
+      "used_samples": 6000
+    },
+    {
+      "dimension": 20216830,
+      "display_name": "kdd2010 (algebra)",
+      "family": "kdd2010-algebra",
+      "highdim_stratum": true,
+      "name": "kdd2010-algebra",
+      "official_samples": 8407752,
+      "path": "data/libsvm_binary_suite_v1/derived/kdd2010-algebra.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "kdda.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdda.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 29890095,
+      "display_name": "kdd2010 (bridge to algebra)",
+      "family": "kdd2010-bridge",
+      "highdim_stratum": true,
+      "name": "kdd2010-bridge-to-algebra",
+      "official_samples": 19264097,
+      "path": "data/libsvm_binary_suite_v1/derived/kdd2010-bridge-to-algebra.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "kddb.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 1163024,
+      "display_name": "kdd2010 raw version (bridge to algebra)",
+      "family": "kdd2010-bridge",
+      "highdim_stratum": true,
+      "name": "kdd2010-raw-version-bridge-to-algebra",
+      "official_samples": 19264097,
+      "path": "data/libsvm_binary_suite_v1/derived/kdd2010-raw-version-bridge-to-algebra.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "kddb-raw-libsvm.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw-libsvm.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 54686452,
+      "display_name": "kdd2012",
+      "family": "kdd2012",
+      "highdim_stratum": true,
+      "name": "kdd2012",
+      "official_samples": 149639105,
+      "path": "data/libsvm_binary_suite_v1/derived/kdd2012.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "kdd12.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdd12.xz",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 7129,
+      "display_name": "leukemia",
+      "family": "leukemia",
+      "highdim_stratum": true,
+      "name": "leukemia",
+      "official_samples": 38,
+      "path": "data/libsvm_binary_suite_v1/derived/leukemia.n38.seed20260731.bz2",
+      "sampling": "full official training file",
+      "source_filename": "leu.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/leu.bz2",
+      "used_samples": 38
+    },
+    {
+      "dimension": 1355191,
+      "display_name": "news20.binary",
+      "family": "news20-binary",
+      "highdim_stratum": true,
+      "name": "news20-binary",
+      "official_samples": 19996,
+      "path": "data/libsvm_binary_suite_v1/derived/news20-binary.n19996.seed20260731.bz2",
+      "sampling": "full official training file",
+      "source_filename": "news20.binary.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/news20.binary.bz2",
+      "used_samples": 19996
+    },
+    {
+      "dimension": 47236,
+      "display_name": "rcv1.binary",
+      "family": "rcv1-binary",
+      "highdim_stratum": true,
+      "name": "rcv1-binary",
+      "official_samples": 20242,
+      "path": "data/libsvm_binary_suite_v1/derived/rcv1-binary.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "rcv1_train.binary.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/rcv1_train.binary.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 20958,
+      "display_name": "real-sim",
+      "family": "real-sim",
+      "highdim_stratum": true,
+      "name": "real-sim",
+      "official_samples": 72309,
+      "path": "data/libsvm_binary_suite_v1/derived/real-sim.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "real-sim.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/real-sim.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 3231961,
+      "display_name": "url",
+      "family": "url",
+      "highdim_stratum": true,
+      "name": "url",
+      "official_samples": 2396130,
+      "path": "data/libsvm_binary_suite_v1/derived/url.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "url_combined_normalized.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/url_combined_normalized.bz2",
+      "used_samples": 20000
+    },
+    {
+      "dimension": 16609143,
+      "display_name": "webspam",
+      "family": "webspam",
+      "highdim_stratum": true,
+      "name": "webspam",
+      "official_samples": 350000,
+      "path": "data/libsvm_binary_suite_v1/derived/webspam.n20000.seed20260731.bz2",
+      "sampling": "uniform 20000-row Algorithm-R reservoir sample, seed 20260731",
+      "source_filename": "webspam_wc_normalized_trigram.svm.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/webspam_wc_normalized_trigram.svm.xz",
+      "used_samples": 20000
+    }
+  ],
+  "execution_protocol": "32 fresh Python processes (eight balanced orders times four methods) in one exclusive same-node allocation per dataset; each method occupies each execution position twice",
+  "feature_preprocessing": "discard explicit zero-valued entries, then apply per-sample l2 normalization to every nonzero row",
+  "instance": {
+    "affine_rhs_norm": 0.5,
+    "dimension_adaptive": true,
+    "seed": 20260731
+  },
+  "ipopt": {
+    "acceptable_tolerance": 1e-08,
+    "linear_solver": "mumps",
+    "max_iterations": 200,
+    "max_wall_seconds": 1800.0,
+    "print_level": 0,
+    "tolerance": 1e-10
+  },
+  "manifest_path": "configs/libsvm_binary_suite_manifest_v1.json",
+  "manifest_sha256": "e288366632523e7096c7f0afb11eb3044dde2248b2f6ef26c500d5d54bdcd7ad",
+  "methods": [
+    "nr_lalm",
+    "nr_lalm_soc",
+    "l_al",
+    "ipopt"
+  ],
+  "official_snapshot_date": "2026-07-31",
+  "parameters": {
+    "acceptance_eta": 0.05,
+    "beta_ceiling": 100000000.0,
+    "beta_floor": 0.0001,
+    "beta_initial": 10.0,
+    "decrease_factor": 0.5,
+    "decrease_ratio": 1.0,
+    "max_backtracks": 60,
+    "max_iterations": 200,
+    "maximum_linear_refinements": 1,
+    "mu": 2.0,
+    "required_linear_residual": 1e-10,
+    "rho": 100.0,
+    "target_residual_squared": 1e-12
+  },
+  "protocol": "prospectively defined official LIBSVM binary suite; complete eligible coverage without outcome-based row selection",
+  "reporting": {
+    "failure_policy": "timeouts, numerical failures, and memory failures remain in the denominator",
+    "primary_residual_squared_threshold": 1e-08,
+    "secondary_residual_squared_thresholds": [
+      1e-10,
+      1e-12
+    ],
+    "time_summary": "median [Q1,Q3] first-hit wall time over eight balanced orders"
+  },
+  "save_final_states": false,
+  "schema": "libsvm_binary_suite_experiment_config_v1",
+  "split_seed": 20260731,
+  "suite_stage": "stage_b",
+  "test_fraction": 0.2,
+  "timing_method_orders": [
+    [
+      "nr_lalm",
+      "nr_lalm_soc",
+      "l_al",
+      "ipopt"
+    ],
+    [
+      "nr_lalm_soc",
+      "l_al",
+      "ipopt",
+      "nr_lalm"
+    ],
+    [
+      "l_al",
+      "ipopt",
+      "nr_lalm",
+      "nr_lalm_soc"
+    ],
+    [
+      "ipopt",
+      "nr_lalm",
+      "nr_lalm_soc",
+      "l_al"
+    ],
+    [
+      "nr_lalm",
+      "nr_lalm_soc",
+      "l_al",
+      "ipopt"
+    ],
+    [
+      "nr_lalm_soc",
+      "l_al",
+      "ipopt",
+      "nr_lalm"
+    ],
+    [
+      "l_al",
+      "ipopt",
+      "nr_lalm",
+      "nr_lalm_soc"
+    ],
+    [
+      "ipopt",
+      "nr_lalm",
+      "nr_lalm_soc",
+      "l_al"
+    ]
+  ]
+}

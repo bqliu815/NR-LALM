@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nr-lalm-experiments"
+version = "0.1.0"
+description = "Reproducibility code for the NR-LALM numerical experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+  {name = "Benqi Liu"},
+  {name = "Kangkang Deng"},
+  {name = "Zaiwen Wen"},
+]
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+  "matplotlib>=3.8,<4",
+]
+
+[project.urls]
+Repository = "https://github.com/bqliu815/nr-lalm-experiments"
+
+[project.optional-dependencies]
+ipopt = ["cyipopt>=1.4"]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools]
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["experiments"]
+pythonpath = [
+  "experiments/section_5_1_mechanism/src",
+  "experiments/section_5_2_deterministic/src",
+  "experiments/section_5_3_stochastic/src",
+]
+addopts = "-ra"

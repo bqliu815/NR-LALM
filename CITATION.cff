@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "NR-LALM numerical experiments"
+type: software
+version: 0.1.0
+date-released: 2026-08-04
+repository-code: "https://github.com/bqliu815/nr-lalm-experiments"
+authors:
+  - family-names: Liu
+    given-names: Benqi
+  - family-names: Deng
+    given-names: Kangkang
+  - family-names: Wen
+    given-names: Zaiwen
+preferred-citation:
+  type: article
+  title: "A Fixed-Penalty Linearized Augmented Lagrangian Method with Classical Multiplier Updates"
+  authors:
+    - family-names: Liu
+      given-names: Benqi
+    - family-names: Deng
+      given-names: Kangkang
+    - family-names: Wen
+      given-names: Zaiwen
+  year: 2026

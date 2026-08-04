@@ -1,0 +1,2203 @@
+{
+  "cases": [
+    {
+      "case_id": "a1a",
+      "case_index": 0,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a1a.n1605.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a1a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a1a",
+      "official_size_bytes_estimate": 114688,
+      "official_size_text": "112K",
+      "official_source_rows": 1605,
+      "sample_seed": 20260731,
+      "sample_size": 1605,
+      "source_archive_type": "plain",
+      "source_filename": "a1a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a1a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a2a",
+      "case_index": 1,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a2a.n2265.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a2a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a2a",
+      "official_size_bytes_estimate": 161792,
+      "official_size_text": "158K",
+      "official_source_rows": 2265,
+      "sample_seed": 20260731,
+      "sample_size": 2265,
+      "source_archive_type": "plain",
+      "source_filename": "a2a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a2a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a3a",
+      "case_index": 2,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a3a.n3185.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a3a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a3a",
+      "official_size_bytes_estimate": 228352,
+      "official_size_text": "223K",
+      "official_source_rows": 3185,
+      "sample_seed": 20260731,
+      "sample_size": 3185,
+      "source_archive_type": "plain",
+      "source_filename": "a3a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a3a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a4a",
+      "case_index": 3,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a4a.n4781.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a4a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a4a",
+      "official_size_bytes_estimate": 342016,
+      "official_size_text": "334K",
+      "official_source_rows": 4781,
+      "sample_seed": 20260731,
+      "sample_size": 4781,
+      "source_archive_type": "plain",
+      "source_filename": "a4a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a4a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a5a",
+      "case_index": 4,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a5a.n6414.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a5a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a5a",
+      "official_size_bytes_estimate": 458752,
+      "official_size_text": "448K",
+      "official_source_rows": 6414,
+      "sample_seed": 20260731,
+      "sample_size": 6414,
+      "source_archive_type": "plain",
+      "source_filename": "a5a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a5a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a6a",
+      "case_index": 5,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a6a.n11220.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a6a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a6a",
+      "official_size_bytes_estimate": 802816,
+      "official_size_text": "784K",
+      "official_source_rows": 11220,
+      "sample_seed": 20260731,
+      "sample_size": 11220,
+      "source_archive_type": "plain",
+      "source_filename": "a6a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a6a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a7a",
+      "case_index": 6,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a7a.n16100.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a7a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a7a",
+      "official_size_bytes_estimate": 1153433,
+      "official_size_text": "1.1M",
+      "official_source_rows": 16100,
+      "sample_seed": 20260731,
+      "sample_size": 16100,
+      "source_archive_type": "plain",
+      "source_filename": "a7a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a7a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a8a",
+      "case_index": 7,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a8a.n20000.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a8a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a8a",
+      "official_size_bytes_estimate": 1572864,
+      "official_size_text": "1.5M",
+      "official_source_rows": 22696,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "plain",
+      "source_filename": "a8a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a8a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "a9a",
+      "case_index": 8,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/a9a.n20000.seed20260731.bz2",
+      "dimension": 123,
+      "display_name": "a9a",
+      "family": "adult-a",
+      "highdim_stratum": false,
+      "official_entry": "a9a",
+      "official_size_bytes_estimate": 2306867,
+      "official_size_text": "2.2M",
+      "official_source_rows": 32561,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "plain",
+      "source_filename": "a9a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "australian",
+      "case_index": 9,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/australian.n690.seed20260731.bz2",
+      "dimension": 14,
+      "display_name": "australian",
+      "family": "australian",
+      "highdim_stratum": false,
+      "official_entry": "australian",
+      "official_size_bytes_estimate": 70656,
+      "official_size_text": "69K",
+      "official_source_rows": 690,
+      "sample_seed": 20260731,
+      "sample_size": 690,
+      "source_archive_type": "plain",
+      "source_filename": "australian_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/australian_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "avazu-app",
+      "case_index": 10,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/avazu-app.n20000.seed20260731.bz2",
+      "dimension": 1000000,
+      "display_name": "avazu-app",
+      "family": "avazu",
+      "highdim_stratum": true,
+      "official_entry": "avazu",
+      "official_size_bytes_estimate": 158334976,
+      "official_size_text": "151M",
+      "official_source_rows": 14596137,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "avazu-app.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "avazu-site",
+      "case_index": 11,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/avazu-site.n20000.seed20260731.bz2",
+      "dimension": 1000000,
+      "display_name": "avazu-site",
+      "family": "avazu",
+      "highdim_stratum": true,
+      "official_entry": "avazu",
+      "official_size_bytes_estimate": 300941312,
+      "official_size_text": "287M",
+      "official_source_rows": 25832830,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "avazu-site.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "breast-cancer",
+      "case_index": 12,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/breast-cancer.n683.seed20260731.bz2",
+      "dimension": 10,
+      "display_name": "breast-cancer",
+      "family": "breast-cancer",
+      "highdim_stratum": false,
+      "official_entry": "breast-cancer",
+      "official_size_bytes_estimate": 60416,
+      "official_size_text": "59K",
+      "official_source_rows": 683,
+      "sample_seed": 20260731,
+      "sample_size": 683,
+      "source_archive_type": "plain",
+      "source_filename": "breast-cancer_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/breast-cancer_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "cod-rna",
+      "case_index": 13,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/cod-rna.n20000.seed20260731.bz2",
+      "dimension": 8,
+      "display_name": "cod-rna",
+      "family": "cod-rna",
+      "highdim_stratum": false,
+      "official_entry": "cod-rna",
+      "official_size_bytes_estimate": 4718592,
+      "official_size_text": "4.5M",
+      "official_source_rows": 59535,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "plain",
+      "source_filename": "cod-rna",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/cod-rna",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "colon-cancer",
+      "case_index": 14,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/colon-cancer.n62.seed20260731.bz2",
+      "dimension": 2000,
+      "display_name": "colon-cancer",
+      "family": "colon-cancer",
+      "highdim_stratum": false,
+      "official_entry": "colon-cancer",
+      "official_size_bytes_estimate": 609280,
+      "official_size_text": "595K",
+      "official_source_rows": 62,
+      "sample_seed": 20260731,
+      "sample_size": 62,
+      "source_archive_type": "bz2",
+      "source_filename": "colon-cancer.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/colon-cancer.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "covtype-binary",
+      "case_index": 15,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/covtype-binary.n20000.seed20260731.bz2",
+      "dimension": 54,
+      "display_name": "covtype.binary",
+      "family": "covtype-binary",
+      "highdim_stratum": false,
+      "official_entry": "covtype.binary",
+      "official_size_bytes_estimate": 8178892,
+      "official_size_text": "7.8M",
+      "official_source_rows": 581012,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "covtype.libsvm.binary.scale.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/covtype.libsvm.binary.scale.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "criteo",
+      "case_index": 16,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/criteo.n20000.seed20260731.bz2",
+      "dimension": 1000000,
+      "display_name": "criteo",
+      "family": "criteo",
+      "highdim_stratum": true,
+      "official_entry": "criteo",
+      "official_size_bytes_estimate": 2791728742,
+      "official_size_text": "2.6G",
+      "official_source_rows": 45840617,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "tar.xz",
+      "source_filename": "criteo.kaggle2014.svm.tar.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo.kaggle2014.svm.tar.xz",
+      "split_seed": 20260731,
+      "tar_member_regex": ".*train.*\\.svm$",
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "diabetes",
+      "case_index": 17,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/diabetes.n768.seed20260731.bz2",
+      "dimension": 8,
+      "display_name": "diabetes",
+      "family": "diabetes",
+      "highdim_stratum": false,
+      "official_entry": "diabetes",
+      "official_size_bytes_estimate": 68608,
+      "official_size_text": "67K",
+      "official_source_rows": 768,
+      "sample_seed": 20260731,
+      "sample_size": 768,
+      "source_archive_type": "plain",
+      "source_filename": "diabetes_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/diabetes_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "duke-breast-cancer",
+      "case_index": 18,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/duke-breast-cancer.n44.seed20260731.bz2",
+      "dimension": 7129,
+      "display_name": "duke breast-cancer",
+      "family": "duke-breast-cancer",
+      "highdim_stratum": true,
+      "official_entry": "duke breast-cancer",
+      "official_size_bytes_estimate": 1677721,
+      "official_size_text": "1.6M",
+      "official_source_rows": 44,
+      "sample_seed": 20260731,
+      "sample_size": 44,
+      "source_archive_type": "bz2",
+      "source_filename": "duke.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/duke.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "epsilon",
+      "case_index": 19,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/epsilon.n20000.seed20260731.bz2",
+      "dimension": 2000,
+      "display_name": "epsilon",
+      "family": "epsilon",
+      "highdim_stratum": false,
+      "official_entry": "epsilon",
+      "official_size_bytes_estimate": 3865470566,
+      "official_size_text": "3.6G",
+      "official_source_rows": 400000,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "epsilon_normalized.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "fourclass",
+      "case_index": 20,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/fourclass.n862.seed20260731.bz2",
+      "dimension": 2,
+      "display_name": "fourclass",
+      "family": "fourclass",
+      "highdim_stratum": false,
+      "official_entry": "fourclass",
+      "official_size_bytes_estimate": 23552,
+      "official_size_text": "23K",
+      "official_source_rows": 862,
+      "sample_seed": 20260731,
+      "sample_size": 862,
+      "source_archive_type": "plain",
+      "source_filename": "fourclass_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/fourclass_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "german-numer",
+      "case_index": 21,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/german-numer.n1000.seed20260731.bz2",
+      "dimension": 24,
+      "display_name": "german.numer",
+      "family": "german-numer",
+      "highdim_stratum": false,
+      "official_entry": "german.numer",
+      "official_size_bytes_estimate": 165888,
+      "official_size_text": "162K",
+      "official_source_rows": 1000,
+      "sample_seed": 20260731,
+      "sample_size": 1000,
+      "source_archive_type": "plain",
+      "source_filename": "german.numer_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/german.numer_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "gisette",
+      "case_index": 22,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/gisette.n6000.seed20260731.bz2",
+      "dimension": 5000,
+      "display_name": "gisette",
+      "family": "gisette",
+      "highdim_stratum": true,
+      "official_entry": "gisette",
+      "official_size_bytes_estimate": 22020096,
+      "official_size_text": "21M",
+      "official_source_rows": 6000,
+      "sample_seed": 20260731,
+      "sample_size": 6000,
+      "source_archive_type": "bz2",
+      "source_filename": "gisette_scale.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/gisette_scale.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "heart",
+      "case_index": 23,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/heart.n270.seed20260731.bz2",
+      "dimension": 13,
+      "display_name": "heart",
+      "family": "heart",
+      "highdim_stratum": false,
+      "official_entry": "heart",
+      "official_size_bytes_estimate": 27648,
+      "official_size_text": "27K",
+      "official_source_rows": 270,
+      "sample_seed": 20260731,
+      "sample_size": 270,
+      "source_archive_type": "plain",
+      "source_filename": "heart_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/heart_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "higgs",
+      "case_index": 24,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/higgs.n20000.seed20260731.bz2",
+      "dimension": 28,
+      "display_name": "HIGGS",
+      "family": "higgs",
+      "highdim_stratum": false,
+      "official_entry": "HIGGS",
+      "official_size_bytes_estimate": 1395864371,
+      "official_size_text": "1.3G",
+      "official_source_rows": 11000000,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "xz",
+      "source_filename": "HIGGS.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/HIGGS.xz",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "ijcnn1",
+      "case_index": 25,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/ijcnn1.n20000.seed20260731.bz2",
+      "dimension": 22,
+      "display_name": "ijcnn1",
+      "family": "ijcnn1",
+      "highdim_stratum": false,
+      "official_entry": "ijcnn1",
+      "official_size_bytes_estimate": 1363148,
+      "official_size_text": "1.3M",
+      "official_source_rows": 49990,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "ijcnn1.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "ionosphere",
+      "case_index": 26,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/ionosphere.n351.seed20260731.bz2",
+      "dimension": 34,
+      "display_name": "ionosphere",
+      "family": "ionosphere",
+      "highdim_stratum": false,
+      "official_entry": "ionosphere",
+      "official_size_bytes_estimate": 102400,
+      "official_size_text": "100K",
+      "official_source_rows": 351,
+      "sample_seed": 20260731,
+      "sample_size": 351,
+      "source_archive_type": "plain",
+      "source_filename": "ionosphere_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ionosphere_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "kdd2010-algebra",
+      "case_index": 27,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/kdd2010-algebra.n20000.seed20260731.bz2",
+      "dimension": 20216830,
+      "display_name": "kdd2010 (algebra)",
+      "family": "kdd2010-algebra",
+      "highdim_stratum": true,
+      "official_entry": "kdd2010 (algebra)",
+      "official_size_bytes_estimate": 287309824,
+      "official_size_text": "274M",
+      "official_source_rows": 8407752,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "kdda.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdda.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "kdd2010-bridge-to-algebra",
+      "case_index": 28,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/kdd2010-bridge-to-algebra.n20000.seed20260731.bz2",
+      "dimension": 29890095,
+      "display_name": "kdd2010 (bridge to algebra)",
+      "family": "kdd2010-bridge",
+      "highdim_stratum": true,
+      "official_entry": "kdd2010 (bridge to algebra)",
+      "official_size_bytes_estimate": 535822336,
+      "official_size_text": "511M",
+      "official_source_rows": 19264097,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "kddb.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "kdd2010-raw-version-bridge-to-algebra",
+      "case_index": 29,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/kdd2010-raw-version-bridge-to-algebra.n20000.seed20260731.bz2",
+      "dimension": 1163024,
+      "display_name": "kdd2010 raw version (bridge to algebra)",
+      "family": "kdd2010-bridge",
+      "highdim_stratum": true,
+      "official_entry": "kdd2010 raw version (bridge to algebra)",
+      "official_size_bytes_estimate": 100663296,
+      "official_size_text": "96M",
+      "official_source_rows": 19264097,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "kddb-raw-libsvm.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw-libsvm.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "kdd2012",
+      "case_index": 30,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/kdd2012.n20000.seed20260731.bz2",
+      "dimension": 54686452,
+      "display_name": "kdd2012",
+      "family": "kdd2012",
+      "highdim_stratum": true,
+      "official_entry": "kdd2012",
+      "official_size_bytes_estimate": 1717986918,
+      "official_size_text": "1.6G",
+      "official_source_rows": 149639105,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "xz",
+      "source_filename": "kdd12.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdd12.xz",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "leukemia",
+      "case_index": 31,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/leukemia.n38.seed20260731.bz2",
+      "dimension": 7129,
+      "display_name": "leukemia",
+      "family": "leukemia",
+      "highdim_stratum": true,
+      "official_entry": "leukemia",
+      "official_size_bytes_estimate": 1468006,
+      "official_size_text": "1.4M",
+      "official_source_rows": 38,
+      "sample_seed": 20260731,
+      "sample_size": 38,
+      "source_archive_type": "bz2",
+      "source_filename": "leu.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/leu.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "liver-disorders",
+      "case_index": 32,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/liver-disorders.n145.seed20260731.bz2",
+      "dimension": 5,
+      "display_name": "liver-disorders",
+      "family": "liver-disorders",
+      "highdim_stratum": false,
+      "official_entry": "liver-disorders",
+      "official_size_bytes_estimate": 8806,
+      "official_size_text": "8.6K",
+      "official_source_rows": 145,
+      "sample_seed": 20260731,
+      "sample_size": 145,
+      "source_archive_type": "plain",
+      "source_filename": "liver-disorders_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/liver-disorders_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "madelon",
+      "case_index": 33,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/madelon.n2000.seed20260731.bz2",
+      "dimension": 500,
+      "display_name": "madelon",
+      "family": "madelon",
+      "highdim_stratum": false,
+      "official_entry": "madelon",
+      "official_size_bytes_estimate": 7759462,
+      "official_size_text": "7.4M",
+      "official_source_rows": 2000,
+      "sample_seed": 20260731,
+      "sample_size": 2000,
+      "source_archive_type": "plain",
+      "source_filename": "madelon",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/madelon",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "mushrooms",
+      "case_index": 34,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/mushrooms.n8124.seed20260731.bz2",
+      "dimension": 112,
+      "display_name": "mushrooms",
+      "family": "mushrooms",
+      "highdim_stratum": false,
+      "official_entry": "mushrooms",
+      "official_size_bytes_estimate": 879616,
+      "official_size_text": "859K",
+      "official_source_rows": 8124,
+      "sample_seed": 20260731,
+      "sample_size": 8124,
+      "source_archive_type": "plain",
+      "source_filename": "mushrooms",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/mushrooms",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "news20-binary",
+      "case_index": 35,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/news20-binary.n19996.seed20260731.bz2",
+      "dimension": 1355191,
+      "display_name": "news20.binary",
+      "family": "news20-binary",
+      "highdim_stratum": true,
+      "official_entry": "news20.binary",
+      "official_size_bytes_estimate": 27262976,
+      "official_size_text": "26M",
+      "official_source_rows": 19996,
+      "sample_seed": 20260731,
+      "sample_size": 19996,
+      "source_archive_type": "bz2",
+      "source_filename": "news20.binary.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/news20.binary.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "phishing",
+      "case_index": 36,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/phishing.n11055.seed20260731.bz2",
+      "dimension": 68,
+      "display_name": "phishing",
+      "family": "phishing",
+      "highdim_stratum": false,
+      "official_entry": "phishing",
+      "official_size_bytes_estimate": 3670016,
+      "official_size_text": "3.5M",
+      "official_source_rows": 11055,
+      "sample_seed": 20260731,
+      "sample_size": 11055,
+      "source_archive_type": "plain",
+      "source_filename": "phishing",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/phishing",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "rcv1-binary",
+      "case_index": 37,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/rcv1-binary.n20000.seed20260731.bz2",
+      "dimension": 47236,
+      "display_name": "rcv1.binary",
+      "family": "rcv1-binary",
+      "highdim_stratum": true,
+      "official_entry": "rcv1.binary",
+      "official_size_bytes_estimate": 13631488,
+      "official_size_text": "13M",
+      "official_source_rows": 20242,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "rcv1_train.binary.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/rcv1_train.binary.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "real-sim",
+      "case_index": 38,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/real-sim.n20000.seed20260731.bz2",
+      "dimension": 20958,
+      "display_name": "real-sim",
+      "family": "real-sim",
+      "highdim_stratum": true,
+      "official_entry": "real-sim",
+      "official_size_bytes_estimate": 35651584,
+      "official_size_text": "34M",
+      "official_source_rows": 72309,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "real-sim.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/real-sim.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "skin-nonskin",
+      "case_index": 39,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/skin-nonskin.n20000.seed20260731.bz2",
+      "dimension": 3,
+      "display_name": "skin_nonskin",
+      "family": "skin-nonskin",
+      "highdim_stratum": false,
+      "official_entry": "skin_nonskin",
+      "official_size_bytes_estimate": 4613734,
+      "official_size_text": "4.4M",
+      "official_source_rows": 245057,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "plain",
+      "source_filename": "skin_nonskin",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/skin_nonskin",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "splice",
+      "case_index": 40,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/splice.n1000.seed20260731.bz2",
+      "dimension": 60,
+      "display_name": "splice",
+      "family": "splice",
+      "highdim_stratum": false,
+      "official_entry": "splice",
+      "official_size_bytes_estimate": 541696,
+      "official_size_text": "529K",
+      "official_source_rows": 1000,
+      "sample_seed": 20260731,
+      "sample_size": 1000,
+      "source_archive_type": "plain",
+      "source_filename": "splice_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "sonar",
+      "case_index": 41,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/sonar.n208.seed20260731.bz2",
+      "dimension": 60,
+      "display_name": "sonar",
+      "family": "sonar",
+      "highdim_stratum": false,
+      "official_entry": "sonar",
+      "official_size_bytes_estimate": 155648,
+      "official_size_text": "152K",
+      "official_source_rows": 208,
+      "sample_seed": 20260731,
+      "sample_size": 208,
+      "source_archive_type": "plain",
+      "source_filename": "sonar_scale",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/sonar_scale",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "susy",
+      "case_index": 42,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/susy.n20000.seed20260731.bz2",
+      "dimension": 18,
+      "display_name": "SUSY",
+      "family": "susy",
+      "highdim_stratum": false,
+      "official_entry": "SUSY",
+      "official_size_bytes_estimate": 528482304,
+      "official_size_text": "504M",
+      "official_source_rows": 5000000,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "xz",
+      "source_filename": "SUSY.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/SUSY.xz",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "svmguide1",
+      "case_index": 43,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/svmguide1.n3089.seed20260731.bz2",
+      "dimension": 4,
+      "display_name": "svmguide1",
+      "family": "svmguide1",
+      "highdim_stratum": false,
+      "official_entry": "svmguide1",
+      "official_size_bytes_estimate": 192512,
+      "official_size_text": "188K",
+      "official_source_rows": 3089,
+      "sample_seed": 20260731,
+      "sample_size": 3089,
+      "source_archive_type": "plain",
+      "source_filename": "svmguide1",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide1",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "svmguide3",
+      "case_index": 44,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/svmguide3.n1243.seed20260731.bz2",
+      "dimension": 21,
+      "display_name": "svmguide3",
+      "family": "svmguide3",
+      "highdim_stratum": false,
+      "official_entry": "svmguide3",
+      "official_size_bytes_estimate": 305152,
+      "official_size_text": "298K",
+      "official_source_rows": 1243,
+      "sample_seed": 20260731,
+      "sample_size": 1243,
+      "source_archive_type": "plain",
+      "source_filename": "svmguide3",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide3",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "url",
+      "case_index": 45,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/url.n20000.seed20260731.bz2",
+      "dimension": 3231961,
+      "display_name": "url",
+      "family": "url",
+      "highdim_stratum": true,
+      "official_entry": "url",
+      "official_size_bytes_estimate": 715128832,
+      "official_size_text": "682M",
+      "official_source_rows": 2396130,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "bz2",
+      "source_filename": "url_combined_normalized.bz2",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/url_combined_normalized.bz2",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w1a",
+      "case_index": 46,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w1a.n2477.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w1a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w1a",
+      "official_size_bytes_estimate": 169984,
+      "official_size_text": "166K",
+      "official_source_rows": 2477,
+      "sample_seed": 20260731,
+      "sample_size": 2477,
+      "source_archive_type": "plain",
+      "source_filename": "w1a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w1a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w2a",
+      "case_index": 47,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w2a.n3470.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w2a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w2a",
+      "official_size_bytes_estimate": 241664,
+      "official_size_text": "236K",
+      "official_source_rows": 3470,
+      "sample_seed": 20260731,
+      "sample_size": 3470,
+      "source_archive_type": "plain",
+      "source_filename": "w2a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w2a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w3a",
+      "case_index": 48,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w3a.n4912.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w3a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w3a",
+      "official_size_bytes_estimate": 343040,
+      "official_size_text": "335K",
+      "official_source_rows": 4912,
+      "sample_seed": 20260731,
+      "sample_size": 4912,
+      "source_archive_type": "plain",
+      "source_filename": "w3a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w3a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w4a",
+      "case_index": 49,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w4a.n7366.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w4a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w4a",
+      "official_size_bytes_estimate": 515072,
+      "official_size_text": "503K",
+      "official_source_rows": 7366,
+      "sample_seed": 20260731,
+      "sample_size": 7366,
+      "source_archive_type": "plain",
+      "source_filename": "w4a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w4a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w5a",
+      "case_index": 50,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w5a.n9888.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w5a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w5a",
+      "official_size_bytes_estimate": 691200,
+      "official_size_text": "675K",
+      "official_source_rows": 9888,
+      "sample_seed": 20260731,
+      "sample_size": 9888,
+      "source_archive_type": "plain",
+      "source_filename": "w5a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w5a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w6a",
+      "case_index": 51,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w6a.n17188.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w6a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w6a",
+      "official_size_bytes_estimate": 1153433,
+      "official_size_text": "1.1M",
+      "official_source_rows": 17188,
+      "sample_seed": 20260731,
+      "sample_size": 17188,
+      "source_archive_type": "plain",
+      "source_filename": "w6a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w6a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w7a",
+      "case_index": 52,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w7a.n20000.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w7a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w7a",
+      "official_size_bytes_estimate": 1677721,
+      "official_size_text": "1.6M",
+      "official_source_rows": 24692,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "plain",
+      "source_filename": "w7a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w7a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "w8a",
+      "case_index": 53,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/w8a.n20000.seed20260731.bz2",
+      "dimension": 300,
+      "display_name": "w8a",
+      "family": "web-w",
+      "highdim_stratum": false,
+      "official_entry": "w8a",
+      "official_size_bytes_estimate": 3460300,
+      "official_size_text": "3.3M",
+      "official_source_rows": 49749,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "plain",
+      "source_filename": "w8a",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w8a",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    },
+    {
+      "case_id": "webspam",
+      "case_index": 54,
+      "derived_path": "data/libsvm_binary_suite_v1/derived/webspam.n20000.seed20260731.bz2",
+      "dimension": 16609143,
+      "display_name": "webspam",
+      "family": "webspam",
+      "highdim_stratum": true,
+      "official_entry": "webspam",
+      "official_size_bytes_estimate": 3650722201,
+      "official_size_text": "3.4G",
+      "official_source_rows": 350000,
+      "sample_seed": 20260731,
+      "sample_size": 20000,
+      "source_archive_type": "xz",
+      "source_filename": "webspam_wc_normalized_trigram.svm.xz",
+      "source_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/webspam_wc_normalized_trigram.svm.xz",
+      "split_seed": 20260731,
+      "tar_member_regex": null,
+      "test_fraction": 0.2
+    }
+  ],
+  "counts": {
+    "excluded_named_entries": 4,
+    "highdim_cases": 15,
+    "included_cases": 55,
+    "included_named_entries": 54,
+    "official_binary_entries": 58
+  },
+  "created_utc": "2026-07-31T05:01:39.976624+00:00",
+  "entries": [
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a1a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a1a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a1a.t"
+      ],
+      "official_testing_rows": 30956,
+      "official_training_rows": 1605,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a1a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a2a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a2a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a2a.t"
+      ],
+      "official_testing_rows": 30296,
+      "official_training_rows": 2265,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a2a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a3a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a3a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a3a.t"
+      ],
+      "official_testing_rows": 29376,
+      "official_training_rows": 3185,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a3a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a4a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a4a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a4a.t"
+      ],
+      "official_testing_rows": 27780,
+      "official_training_rows": 4781,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a4a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a5a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a5a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a5a.t"
+      ],
+      "official_testing_rows": 26147,
+      "official_training_rows": 6414,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a5a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a6a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a6a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a6a.t"
+      ],
+      "official_testing_rows": 21341,
+      "official_training_rows": 11220,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a6a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a7a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a7a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a7a.t"
+      ],
+      "official_testing_rows": 16461,
+      "official_training_rows": 16100,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a7a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a8a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a8a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a8a.t"
+      ],
+      "official_testing_rows": 9865,
+      "official_training_rows": 22696,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a8a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 123,
+      "exclusion_reasons": [],
+      "family": "adult-a",
+      "included": true,
+      "name": "a9a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a.t"
+      ],
+      "official_testing_rows": 16281,
+      "official_training_rows": 32561,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 14,
+      "exclusion_reasons": [],
+      "family": "australian",
+      "included": true,
+      "name": "australian",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/australian",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/australian_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 690,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/australian_scale"
+      ],
+      "source": "Statlog"
+    },
+    {
+      "dimension": 1000000,
+      "exclusion_reasons": [],
+      "family": "avazu",
+      "included": true,
+      "name": "avazu",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.t.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.tr.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.val.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.t.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.tr.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.val.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-submit.zip"
+      ],
+      "official_testing_rows": 4577464,
+      "official_training_rows": 40428967,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-app.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/avazu-site.bz2"
+      ],
+      "source": "Avazu's Click-through Prediction"
+    },
+    {
+      "dimension": 10,
+      "exclusion_reasons": [],
+      "family": "breast-cancer",
+      "included": true,
+      "name": "breast-cancer",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/breast-cancer",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/breast-cancer_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 683,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/breast-cancer_scale"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 8,
+      "exclusion_reasons": [],
+      "family": "cod-rna",
+      "included": true,
+      "name": "cod-rna",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/cod-rna",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/cod-rna.t",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/cod-rna.r"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 59535,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/cod-rna"
+      ],
+      "source": "[ AVU06a ]"
+    },
+    {
+      "dimension": 2000,
+      "exclusion_reasons": [],
+      "family": "colon-cancer",
+      "included": true,
+      "name": "colon-cancer",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/colon-cancer.bz2"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 62,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/colon-cancer.bz2"
+      ],
+      "source": "[ AU99a ]"
+    },
+    {
+      "dimension": 54,
+      "exclusion_reasons": [],
+      "family": "covtype-binary",
+      "included": true,
+      "name": "covtype.binary",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/covtype.libsvm.binary.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/covtype.libsvm.binary.scale.bz2"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 581012,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/covtype.libsvm.binary.scale.bz2"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 1000000,
+      "exclusion_reasons": [],
+      "family": "criteo",
+      "included": true,
+      "name": "criteo",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo.kaggle2014.svm.tar.xz",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo_tb_trans.zip"
+      ],
+      "official_testing_rows": 6042135,
+      "official_training_rows": 45840617,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo.kaggle2014.svm.tar.xz"
+      ],
+      "source": "Criteo's Display Advertising Challenge"
+    },
+    {
+      "dimension": 1000000,
+      "exclusion_reasons": [
+        "official_archive_exceeds_5_gib:criteo_tb.svm.tar.xz"
+      ],
+      "family": "criteo-tb",
+      "included": false,
+      "name": "criteo_tb",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo_tb.svm.tar.xz",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo_tb_trans.zip",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/logloss.py"
+      ],
+      "official_testing_rows": 178274637,
+      "official_training_rows": 4195197692,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/criteo_tb.svm.tar.xz"
+      ],
+      "source": "Criteo's Terabyte Click Logs"
+    },
+    {
+      "dimension": 8,
+      "exclusion_reasons": [],
+      "family": "diabetes",
+      "included": true,
+      "name": "diabetes",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/diabetes",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/diabetes_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 768,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/diabetes_scale"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 7129,
+      "exclusion_reasons": [],
+      "family": "duke-breast-cancer",
+      "included": true,
+      "name": "duke breast-cancer",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/duke.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/duke.tr.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/duke.val.bz2"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 44,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/duke.bz2"
+      ],
+      "source": "[ MW01a ]"
+    },
+    {
+      "dimension": 2000,
+      "exclusion_reasons": [],
+      "family": "epsilon",
+      "included": true,
+      "name": "epsilon",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.t.bz2"
+      ],
+      "official_testing_rows": 100000,
+      "official_training_rows": 400000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.bz2"
+      ],
+      "source": "PASCAL Challenge 2008"
+    },
+    {
+      "dimension": 2,
+      "exclusion_reasons": [],
+      "family": "fourclass",
+      "included": true,
+      "name": "fourclass",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/fourclass",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/fourclass_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 862,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/fourclass_scale"
+      ],
+      "source": "[ TKH96a ]"
+    },
+    {
+      "dimension": 24,
+      "exclusion_reasons": [],
+      "family": "german-numer",
+      "included": true,
+      "name": "german.numer",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/german.numer",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/german.numer_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 1000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/german.numer_scale"
+      ],
+      "source": "Statlog"
+    },
+    {
+      "dimension": 5000,
+      "exclusion_reasons": [],
+      "family": "gisette",
+      "included": true,
+      "name": "gisette",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/gisette_scale.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/gisette_scale.t.bz2"
+      ],
+      "official_testing_rows": 1000,
+      "official_training_rows": 6000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/gisette_scale.bz2"
+      ],
+      "source": "NIPS 2003 Feature Selection Challenge [ IG05a ]"
+    },
+    {
+      "dimension": 13,
+      "exclusion_reasons": [],
+      "family": "heart",
+      "included": true,
+      "name": "heart",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/heart",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/heart_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 270,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/heart_scale"
+      ],
+      "source": "Statlog"
+    },
+    {
+      "dimension": 28,
+      "exclusion_reasons": [],
+      "family": "higgs",
+      "included": true,
+      "name": "HIGGS",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/HIGGS.xz"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 11000000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/HIGGS.xz"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": null,
+      "exclusion_reasons": [
+        "missing_numeric_feature_dimension",
+        "raw_text_only_no_numeric_design_matrix"
+      ],
+      "family": "hyperpartisan-news-detection",
+      "included": false,
+      "name": "Hyperpartisan News Detection",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/generate_hyperpartisan.py",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/hyperpartisan_raw_texts.txt.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/hyperpartisan_raw_texts_train.txt.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/hyperpartisan_raw_texts_val.txt.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/hyperpartisan_raw_texts_test.txt.bz2"
+      ],
+      "official_testing_rows": 65,
+      "official_training_rows": 516,
+      "selected_urls": [],
+      "source": "SemEval-2019 Task 4: Hyperpartisan News Detection"
+    },
+    {
+      "dimension": 22,
+      "exclusion_reasons": [],
+      "family": "ijcnn1",
+      "included": true,
+      "name": "ijcnn1",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.t.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.tr.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.val.bz2"
+      ],
+      "official_testing_rows": 91701,
+      "official_training_rows": 49990,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.bz2"
+      ],
+      "source": "[ DP01a ]"
+    },
+    {
+      "dimension": null,
+      "exclusion_reasons": [
+        "missing_numeric_feature_dimension",
+        "raw_text_only_no_numeric_design_matrix"
+      ],
+      "family": "imdb-sentiment",
+      "included": false,
+      "name": "imdb-sentiment",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/generate_imdb_sentiment.py",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/imdb_sentiment_raw_texts_train.txt.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/imdb_sentiment_raw_texts_test.txt.bz2"
+      ],
+      "official_testing_rows": 25000,
+      "official_training_rows": 25000,
+      "selected_urls": [],
+      "source": "Learning Word Vectors for Sentiment Analysis"
+    },
+    {
+      "dimension": 34,
+      "exclusion_reasons": [],
+      "family": "ionosphere",
+      "included": true,
+      "name": "ionosphere",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ionosphere_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 351,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ionosphere_scale"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 20216830,
+      "exclusion_reasons": [],
+      "family": "kdd2010-algebra",
+      "included": true,
+      "name": "kdd2010 (algebra)",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdda.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdda.t.bz2"
+      ],
+      "official_testing_rows": 510302,
+      "official_training_rows": 8407752,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdda.bz2"
+      ],
+      "source": "KDD CUP 2010"
+    },
+    {
+      "dimension": 29890095,
+      "exclusion_reasons": [],
+      "family": "kdd2010-bridge",
+      "included": true,
+      "name": "kdd2010 (bridge to algebra)",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb.t.bz2"
+      ],
+      "official_testing_rows": 748401,
+      "official_training_rows": 19264097,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb.bz2"
+      ],
+      "source": "KDD CUP 2010"
+    },
+    {
+      "dimension": 1163024,
+      "exclusion_reasons": [],
+      "family": "kdd2010-bridge",
+      "included": true,
+      "name": "kdd2010 raw version (bridge to algebra)",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw.t.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw-libsvm.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw-libsvm.t.bz2"
+      ],
+      "official_testing_rows": 748401,
+      "official_training_rows": 19264097,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kddb-raw-libsvm.bz2"
+      ],
+      "source": "KDD CUP 2010"
+    },
+    {
+      "dimension": 54686452,
+      "exclusion_reasons": [],
+      "family": "kdd2012",
+      "included": true,
+      "name": "kdd2012",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdd12.xz",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdd12.tr.xz",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdd12.val.xz"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 149639105,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/kdd12.xz"
+      ],
+      "source": "KDD CUP 2012"
+    },
+    {
+      "dimension": 7129,
+      "exclusion_reasons": [],
+      "family": "leukemia",
+      "included": true,
+      "name": "leukemia",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/leu.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/leu.t.bz2"
+      ],
+      "official_testing_rows": 34,
+      "official_training_rows": 38,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/leu.bz2"
+      ],
+      "source": "[ TG99a ]"
+    },
+    {
+      "dimension": 5,
+      "exclusion_reasons": [],
+      "family": "liver-disorders",
+      "included": true,
+      "name": "liver-disorders",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/liver-disorders",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/liver-disorders_scale",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/liver-disorders.t"
+      ],
+      "official_testing_rows": 200,
+      "official_training_rows": 145,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/liver-disorders_scale"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 500,
+      "exclusion_reasons": [],
+      "family": "madelon",
+      "included": true,
+      "name": "madelon",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/madelon",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/madelon.t"
+      ],
+      "official_testing_rows": 600,
+      "official_training_rows": 2000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/madelon"
+      ],
+      "source": "NIPS 2003 Feature Selection Challenge [ IG05a ]"
+    },
+    {
+      "dimension": 112,
+      "exclusion_reasons": [],
+      "family": "mushrooms",
+      "included": true,
+      "name": "mushrooms",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/mushrooms"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 8124,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/mushrooms"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 1355191,
+      "exclusion_reasons": [],
+      "family": "news20-binary",
+      "included": true,
+      "name": "news20.binary",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/news20.binary.bz2"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 19996,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/news20.binary.bz2"
+      ],
+      "source": "[ SSK05a ]"
+    },
+    {
+      "dimension": 68,
+      "exclusion_reasons": [],
+      "family": "phishing",
+      "included": true,
+      "name": "phishing",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/phishing"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 11055,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/phishing"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 47236,
+      "exclusion_reasons": [],
+      "family": "rcv1-binary",
+      "included": true,
+      "name": "rcv1.binary",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/rcv1_train.binary.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/rcv1_test.binary.bz2"
+      ],
+      "official_testing_rows": 677399,
+      "official_training_rows": 20242,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/rcv1_train.binary.bz2"
+      ],
+      "source": "[ DL04b ]"
+    },
+    {
+      "dimension": 20958,
+      "exclusion_reasons": [],
+      "family": "real-sim",
+      "included": true,
+      "name": "real-sim",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/real-sim.bz2"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 72309,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/real-sim.bz2"
+      ],
+      "source": "A. McCallum"
+    },
+    {
+      "dimension": 3,
+      "exclusion_reasons": [],
+      "family": "skin-nonskin",
+      "included": true,
+      "name": "skin_nonskin",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/skin_nonskin"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 245057,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/skin_nonskin"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 60,
+      "exclusion_reasons": [],
+      "family": "splice",
+      "included": true,
+      "name": "splice",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice_scale",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice.t"
+      ],
+      "official_testing_rows": 2175,
+      "official_training_rows": 1000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice_scale"
+      ],
+      "source": "Delve"
+    },
+    {
+      "dimension": 11725480,
+      "exclusion_reasons": [
+        "official_archive_exceeds_5_gib:splice_site.xz"
+      ],
+      "family": "splice-site",
+      "included": false,
+      "name": "splice-site",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice_site.xz",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice_site.t.xz"
+      ],
+      "official_testing_rows": 4627840,
+      "official_training_rows": 50000000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/splice_site.xz"
+      ],
+      "source": "[ SS10a,AA12a ]"
+    },
+    {
+      "dimension": 60,
+      "exclusion_reasons": [],
+      "family": "sonar",
+      "included": true,
+      "name": "sonar",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/sonar_scale"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 208,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/sonar_scale"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 18,
+      "exclusion_reasons": [],
+      "family": "susy",
+      "included": true,
+      "name": "SUSY",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/SUSY.xz"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 5000000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/SUSY.xz"
+      ],
+      "source": "UCI"
+    },
+    {
+      "dimension": 4,
+      "exclusion_reasons": [],
+      "family": "svmguide1",
+      "included": true,
+      "name": "svmguide1",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide1",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide1.t"
+      ],
+      "official_testing_rows": 4000,
+      "official_training_rows": 3089,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide1"
+      ],
+      "source": "[ CWH03a ]"
+    },
+    {
+      "dimension": 21,
+      "exclusion_reasons": [],
+      "family": "svmguide3",
+      "included": true,
+      "name": "svmguide3",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide3",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide3.t"
+      ],
+      "official_testing_rows": 41,
+      "official_training_rows": 1243,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/svmguide3"
+      ],
+      "source": "[ CWH03a ]"
+    },
+    {
+      "dimension": 3231961,
+      "exclusion_reasons": [],
+      "family": "url",
+      "included": true,
+      "name": "url",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/url_combined.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/url_combined_normalized.bz2",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/url_original.tar.bz2"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 2396130,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/url_combined_normalized.bz2"
+      ],
+      "source": "[ JM09a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w1a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w1a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w1a.t"
+      ],
+      "official_testing_rows": 47272,
+      "official_training_rows": 2477,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w1a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w2a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w2a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w2a.t"
+      ],
+      "official_testing_rows": 46279,
+      "official_training_rows": 3470,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w2a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w3a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w3a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w3a.t"
+      ],
+      "official_testing_rows": 44837,
+      "official_training_rows": 4912,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w3a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w4a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w4a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w4a.t"
+      ],
+      "official_testing_rows": 42383,
+      "official_training_rows": 7366,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w4a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w5a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w5a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w5a.t"
+      ],
+      "official_testing_rows": 39861,
+      "official_training_rows": 9888,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w5a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w6a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w6a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w6a.t"
+      ],
+      "official_testing_rows": 32561,
+      "official_training_rows": 17188,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w6a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w7a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w7a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w7a.t"
+      ],
+      "official_testing_rows": 25057,
+      "official_training_rows": 24692,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w7a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 300,
+      "exclusion_reasons": [],
+      "family": "web-w",
+      "included": true,
+      "name": "w8a",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w8a",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w8a.t"
+      ],
+      "official_testing_rows": 14951,
+      "official_training_rows": 49749,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w8a"
+      ],
+      "source": "[ JP98a ]"
+    },
+    {
+      "dimension": 16609143,
+      "exclusion_reasons": [],
+      "family": "webspam",
+      "included": true,
+      "name": "webspam",
+      "official_links": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/webspam_wc_normalized_trigram.svm.xz",
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/webspam_wc_normalized_unigram.svm.xz"
+      ],
+      "official_testing_rows": null,
+      "official_training_rows": 350000,
+      "selected_urls": [
+        "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/webspam_wc_normalized_trigram.svm.xz"
+      ],
+      "source": "Webb Spam Corpus [ ST06a ]"
+    }
+  ],
+  "official_base_url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/",
+  "official_snapshot_date": "2026-07-31",
+  "prospective": true,
+  "protocol_path": "PROTOCOL.md",
+  "protocol_sha256": "ba5539a87638a4937069e83bae800f69bd5250f953a7f4daf7e68a486c6d4082",
+  "rules": {
+    "archive_cap_bytes": 5368709120,
+    "highdim_minimum_dimension": 2561,
+    "row_preprocessing": "drop explicit zero-valued entries, then apply per-sample l2 normalization to nonzero rows",
+    "sample_cap_rows": 20000,
+    "sample_seed": 20260731,
+    "split_seed": 20260731,
+    "test_fraction": 0.2
+  },
+  "schema": "libsvm_binary_suite_manifest_v1",
+  "snapshot_files": {
+    "archive_index.html": {
+      "bytes": 27823,
+      "sha256": "3722dc6a97ae40f4850ff4bdfca8b79a1eb736781b4824093a7728841c67d248"
+    },
+    "binary.html": {
+      "bytes": 48408,
+      "sha256": "f43b20bebd2f0e5753b3cf6fd543168a23110f393d2d1baedb5b742a83409015"
+    },
+    "index.html": {
+      "bytes": 40217,
+      "sha256": "e52e626afde45b97d64bbaee0ab8136e70bc2b3aa07c2f9b2bae8130d15f7040"
+    }
+  }
+}

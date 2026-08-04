@@ -1,0 +1,43 @@
+protocol_version = 1
+status = "FROZEN"
+
+[display]
+# Presentation labels do not affect the numerical protocol.
+base_method = "NR-LALM"
+corrected_method = "NR-LALM+SOC"
+
+[problem]
+dimension = 100
+constraints = 20
+problem_seed = 6101
+direction_seed = 6201
+direction_count = 32
+
+[certificate]
+beta = 3000000.0
+rho = 192000000.0
+initial_lambda_norm = 1049.0
+common_delta = 0.002
+common_lambda = 20000.0
+strict_delta = 0.004
+strict_lambda = 30000.0
+delta_min = 0.00001
+delta_max = 0.018
+delta_points = 900
+delta_ticks = [0.002, 0.006, 0.010, 0.014, 0.018]
+lambda_min = 1049.0
+lambda_max = 50000.0
+lambda_points = 1000
+lambda_ticks = [1049.0, 10000.0, 20000.0, 30000.0, 40000.0, 50000.0]
+
+[order]
+step_min = 0.01
+step_max = 0.2
+step_count = 12
+base_slope_min = 1.9
+base_slope_max = 2.1
+corrected_slope_min = 3.8
+corrected_slope_max = 4.2
+minimum_r_squared = 0.999
+maximum_solve_relative_residual = 1.0e-12
+noise_multiplier = 100.0
