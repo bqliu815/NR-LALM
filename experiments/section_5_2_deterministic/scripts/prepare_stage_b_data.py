@@ -23,13 +23,13 @@ def main() -> None:
     parser.add_argument(
         "--manifest",
         type=Path,
-        default=EXPERIMENT_DIR / "configs" / "libsvm_binary_suite_manifest_v1.json",
+        default=EXPERIMENT_DIR / "configs" / "paper_data_manifest.json",
     )
     parser.add_argument(
         "--dataset-index",
         type=int,
         action="append",
-        help="prepare only this Stage-B index; may be repeated",
+        help="prepare only this data-set index; may be repeated",
     )
     parser.add_argument("--overwrite", action="store_true")
     args = parser.parse_args()
@@ -61,7 +61,10 @@ def main() -> None:
         ]
         if args.overwrite:
             command.append("--overwrite")
-        print(f"preparing Stage-B data set {dataset_index}: {dataset['name']}", flush=True)
+        print(
+            f"preparing data set {dataset_index}: {dataset['name']}",
+            flush=True,
+        )
         subprocess.run(command, check=True)
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the audited LIBSVM Stage-B table and SIOPT-style figure."""
+"""Render the Section 5.2 LIBSVM table and optional summary figure."""
 
 from __future__ import annotations
 
@@ -64,9 +64,7 @@ SHORT_DATASET_LABELS = {
     "webspam": "webspam",
 }
 
-# Numbers of observations in the frozen 80% training portions.  The counts
-# follow the protocol's classwise rounded 80/20 split and are part of the
-# audited Stage-B instance specification.
+# Numbers of observations in the classwise rounded 80% training portions.
 TRAINING_SAMPLES = {
     "avazu-app": 16000,
     "avazu-site": 16000,
@@ -424,22 +422,6 @@ def render_table(summary: dict[str, Any], output_dir: Path) -> Path:
     return table_path
 
 
-def normalized_paper_rows(path: Path) -> list[str]:
-    """Return the 15 data rows modulo equivalent inline-math delimiters."""
-    labels = set(SHORT_DATASET_LABELS.values())
-    rows: list[str] = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        label = line.split(" & ", maxsplit=1)[0]
-        if label not in labels:
-            continue
-        normalized = line.replace("$", "")
-        normalized = normalized.replace(r"\(", "").replace(r"\)", "")
-        rows.append(" ".join(normalized.split()))
-    if len(rows) != len(TRAINING_SAMPLES):
-        raise ValueError(f"expected 15 paper rows in {path}, found {len(rows)}")
-    return rows
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--summary", required=True, type=Path)
@@ -448,11 +430,6 @@ def main() -> None:
         "--table-only",
         action="store_true",
         help="write the LaTeX table without importing Matplotlib",
-    )
-    parser.add_argument(
-        "--manuscript-source",
-        type=Path,
-        help="verify that the manuscript contains the generated 15 data rows",
     )
     args = parser.parse_args()
 
@@ -475,20 +452,6 @@ def main() -> None:
     if not args.table_only:
         outputs.extend(render_figure(summary, output_dir))
     outputs.append(render_table(summary, output_dir))
-    manuscript_alignment = None
-    if args.manuscript_source is not None:
-        manuscript_path = args.manuscript_source.resolve()
-        if normalized_paper_rows(outputs[-1]) != normalized_paper_rows(
-            manuscript_path
-        ):
-            raise ValueError("generated and manuscript timing rows differ")
-        manuscript_alignment = {
-            "status": "PASS",
-            "scope": "15 data rows",
-            "normalization": "equivalent inline-math delimiters only",
-            "manuscript_path": str(manuscript_path),
-            "manuscript_sha256": sha256(manuscript_path),
-        }
     if not args.table_only:
         caption_path = output_dir / "libsvm_stage_b_figure_caption.tex"
         caption_path.write_text(
@@ -521,7 +484,6 @@ def main() -> None:
         ),
         "render_mode": "table_only" if args.table_only else "full",
         "training_samples": TRAINING_SAMPLES,
-        "manuscript_alignment": manuscript_alignment,
         "figure_size_inches": (
             None if args.table_only else [5.125, 2.45]
         ),

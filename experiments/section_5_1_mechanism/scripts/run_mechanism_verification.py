@@ -46,8 +46,7 @@ FIGURE_CAPTION = r"""\caption{Mechanism verification on one fixed
 \((n,m)=(100,20)\) problem.  \textup{(a)} Sufficient parameter regions for
 the base and corrected methods.  \textup{(b)} Norms of the base and SOC
 constraint linearization errors over 32 directions; bands show interquartile
-ranges, and the median directional slopes are \(2.001\) and \(4.022\),
-respectively.}
+ranges.}
 """
 
 
