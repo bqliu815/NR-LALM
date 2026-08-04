@@ -4,7 +4,7 @@ title: "NR-LALM numerical experiments"
 type: software
 version: 0.1.0
 date-released: 2026-08-04
-repository-code: "https://github.com/bqliu815/nr-lalm-experiments"
+repository-code: "https://github.com/bqliu815/NR-LALM"
 authors:
   - family-names: Liu
     given-names: Benqi

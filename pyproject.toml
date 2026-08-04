@@ -3,7 +3,7 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nr-lalm-experiments"
+name = "nr-lalm"
 version = "0.1.0"
 description = "Reproducibility code for the NR-LALM numerical experiments"
 readme = "README.md"
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/bqliu815/nr-lalm-experiments"
+Repository = "https://github.com/bqliu815/NR-LALM"
 
 [project.optional-dependencies]
 ipopt = ["cyipopt>=1.4"]
