@@ -4,11 +4,11 @@ This repository contains the code needed to reproduce Sections 5.1--5.3 of
 the paper *A Fixed-Penalty Linearized Augmented Lagrangian Method with
 Classical Multiplier Updates*.
 
-The public package is deliberately smaller than the authors' development
-archive. It contains the frozen paper algorithms, configurations, public-data
-download/preparation code, analysis code, plotting code, and regression
-tests. Raw data, completed runs, tuning grids, failed development routes,
-cluster logs, and manuscript files are not distributed.
+The repository contains the algorithm implementations, paper configurations,
+public-data preparation code, experiment runners, analysis and rendering code,
+and regression tests. Generated data, numerical records, figures, tables, and
+cluster logs are intentionally not versioned; the commands below recreate the
+paper artifacts in the corresponding `results/` directories.
 
 ## Repository map
 
@@ -56,8 +56,7 @@ archives before forming deterministic 20,000-row samples; check storage and
 network quotas first.
 
 See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for the mapping from
-commands to paper artifacts and [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)
-for the remaining author and verification actions before public release.
+commands to paper artifacts.
 
 ## License and citation
 

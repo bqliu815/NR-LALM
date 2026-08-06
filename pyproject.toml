@@ -12,6 +12,7 @@ license = {text = "MIT"}
 authors = [
   {name = "Benqi Liu"},
   {name = "Kangkang Deng"},
+  {name = "Zichen Wang"},
   {name = "Zaiwen Wen"},
 ]
 dependencies = [

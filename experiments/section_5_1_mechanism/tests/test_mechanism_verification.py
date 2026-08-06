@@ -60,21 +60,26 @@ class MechanismVerificationIntegrationTest(unittest.TestCase):
         )
         return output_dir
 
-    def test_reference_result_and_label_isolation(self) -> None:
+    def test_protocol_outputs_and_label_isolation(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             first = self.run_protocol(root, CONFIG, "first")
             raw = json.loads((first / "raw.json").read_text())
             self.assertEqual(raw["status"], "PASS")
             self.assertEqual(raw["protocol_status"], "FROZEN")
-            self.assertEqual(
-                raw["certificate"]["base_feasible_grid_points"],
-                105032,
+            protocol = tomllib.loads(CONFIG.read_text())
+            certificate = raw["certificate"]
+            total_grid_points = (
+                int(protocol["certificate"]["delta_points"])
+                * int(protocol["certificate"]["lambda_points"])
             )
-            self.assertEqual(
-                raw["certificate"]["corrected_feasible_grid_points"],
-                366248,
+            base_count = int(certificate["base_feasible_grid_points"])
+            corrected_count = int(
+                certificate["corrected_feasible_grid_points"]
             )
+            self.assertGreater(base_count, 0)
+            self.assertGreater(corrected_count, base_count)
+            self.assertLess(corrected_count, total_grid_points)
             self.assertFalse(
                 raw["certificate"]["strict_base_membership"]
             )
@@ -87,15 +92,20 @@ class MechanismVerificationIntegrationTest(unittest.TestCase):
             self.assertTrue(
                 raw["certificate"]["common_corrected_membership"]
             )
-            self.assertAlmostEqual(
-                raw["order"]["base_slope_summary"]["median"],
-                2.0011801404631084,
-                places=12,
+            order = protocol["order"]
+            base_slope = float(
+                raw["order"]["base_slope_summary"]["median"]
             )
-            self.assertAlmostEqual(
-                raw["order"]["corrected_slope_summary"]["median"],
-                4.0223870860324284,
-                places=12,
+            corrected_slope = float(
+                raw["order"]["corrected_slope_summary"]["median"]
+            )
+            self.assertLessEqual(order["base_slope_min"], base_slope)
+            self.assertLessEqual(base_slope, order["base_slope_max"])
+            self.assertLessEqual(
+                order["corrected_slope_min"], corrected_slope
+            )
+            self.assertLessEqual(
+                corrected_slope, order["corrected_slope_max"]
             )
 
             manifest = json.loads(

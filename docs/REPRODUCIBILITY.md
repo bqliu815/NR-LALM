@@ -7,12 +7,11 @@ Input: `experiments/section_5_1_mechanism/configs/paper_v1.toml`.
 Runner: `experiments/section_5_1_mechanism/scripts/run_mechanism_verification.py`.
 
 Paper-facing output: `mechanism_verification.pdf`. The same run also writes a
-300-dpi PNG, the LaTeX caption, numerical grid counts, directional slopes,
-and a machine-readable validation record.
+300-dpi PNG, the LaTeX caption, and machine-readable numerical values.
 
 ## Section 5.2: deterministic public-data comparison
 
-Inputs: the complete LIBSVM manifest and
+Inputs: the 15-data-set paper manifest and
 `experiments/section_5_2_deterministic/configs/paper_stage_b_v2.json`.
 
 Pipeline:
@@ -23,7 +22,7 @@ Pipeline:
    balanced orders for one data set. `slurm_stage_b.sbatch` maps the 15 data
    sets to an array job.
 3. `analyze_libsvm_suite_stage_b.py` validates all 480 method runs and writes
-   the audited timing summary.
+   the timing summary.
 4. `render_libsvm_suite_stage_b_outputs.py --table-only` writes the LaTeX
    timing table used in the paper.
 

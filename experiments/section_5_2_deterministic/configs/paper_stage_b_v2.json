@@ -211,15 +211,13 @@
     "print_level": 0,
     "tolerance": 1e-10
   },
-  "manifest_path": "configs/libsvm_binary_suite_manifest_v1.json",
-  "manifest_sha256": "e288366632523e7096c7f0afb11eb3044dde2248b2f6ef26c500d5d54bdcd7ad",
+  "manifest_path": "configs/paper_data_manifest.json",
   "methods": [
     "nr_lalm",
     "nr_lalm_soc",
     "l_al",
     "ipopt"
   ],
-  "official_snapshot_date": "2026-07-31",
   "parameters": {
     "acceptance_eta": 0.05,
     "beta_ceiling": 100000000.0,
@@ -235,7 +233,7 @@
     "rho": 100.0,
     "target_residual_squared": 1e-12
   },
-  "protocol": "prospectively defined official LIBSVM binary suite; complete eligible coverage without outcome-based row selection",
+  "protocol": "Section 5.2 deterministic LIBSVM comparison",
   "reporting": {
     "failure_policy": "timeouts, numerical failures, and memory failures remain in the denominator",
     "primary_residual_squared_threshold": 1e-08,
@@ -243,12 +241,11 @@
       1e-10,
       1e-12
     ],
-    "time_summary": "median [Q1,Q3] first-hit wall time over eight balanced orders"
+    "time_summary": "median first-hit wall time over eight balanced orders"
   },
   "save_final_states": false,
   "schema": "libsvm_binary_suite_experiment_config_v1",
   "split_seed": 20260731,
-  "suite_stage": "stage_b",
   "test_fraction": 0.2,
   "timing_method_orders": [
     [

@@ -13,10 +13,9 @@ python experiments/section_5_1_mechanism/scripts/run_mechanism_verification.py \
   --output-dir experiments/section_5_1_mechanism/results/paper_run
 ```
 
-The run should report 105,032 NR-LALM certified grid pairs, 366,248
-NR-LALM+SOC pairs, and median fitted slopes 2.001 and 4.022. The paper-facing
-file is `mechanism_verification.pdf`; `figure_caption.tex` contains its
-caption.
+The paper-facing file is `mechanism_verification.pdf`;
+`figure_caption.tex` contains its caption, while `raw.json` stores the
+computed grid counts and fitted orders.
 
 This figure illustrates sufficient analytical regions and local error
 orders. It is not an empirical convergence-basin or runtime comparison.

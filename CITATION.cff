@@ -10,6 +10,8 @@ authors:
     given-names: Benqi
   - family-names: Deng
     given-names: Kangkang
+  - family-names: Wang
+    given-names: Zichen
   - family-names: Wen
     given-names: Zaiwen
 preferred-citation:
@@ -20,6 +22,8 @@ preferred-citation:
       given-names: Benqi
     - family-names: Deng
       given-names: Kangkang
+    - family-names: Wang
+      given-names: Zichen
     - family-names: Wen
       given-names: Zaiwen
   year: 2026

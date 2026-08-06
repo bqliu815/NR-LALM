@@ -1,6 +1,6 @@
 # Contributing
 
-Please open an issue before changing a frozen paper configuration or work
+Please open an issue before changing a paper configuration or work
 accounting rule. Bug fixes should include a focused regression test and must
 preserve the paper-facing method names NR-LALM and NR-LALM+SOC.
 

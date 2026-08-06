@@ -45,7 +45,7 @@ def main() -> None:
     if config.get("protocol_status") != "PAPER_FROZEN":
         raise ValueError("runner requires the frozen paper protocol")
     if tuple(config.get("displayed_methods", ())) != METHODS:
-        raise ValueError("qualification method order differs from the four-method runner")
+        raise ValueError("configured method order differs from the four-method runner")
     dataset_index, repeat = array_assignment(
         args.array_index,
         len(config["datasets"]),
