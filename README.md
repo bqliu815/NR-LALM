@@ -1,10 +1,13 @@
 # NR-LALM: reproducible numerical experiments and formal verification
 
 This repository accompanies the paper
+
 *A Fixed-Penalty Linearized Augmented Lagrangian Method with Classical
-Multiplier Updates*. It contains the code needed to reproduce the numerical
-experiments in Sections 5.1--5.3. The theoretical results in the paper have
-also been formalized and machine-checked in Lean 4.
+Multiplier Updates*.
+
+It contains the code needed to reproduce the numerical experiments in
+Sections 5.1--5.3. The theoretical results in the paper have also been
+formally verified in Lean 4.
 
 Numerical code:
 https://github.com/bqliu815/NR-LALM
@@ -67,8 +70,8 @@ from commands to paper artifacts.
 
 ## Formal verification
 
-The theoretical results in the paper have been formalized and machine-checked
-in Lean 4. The formalization is pinned to ReasBook `v4.32.2`.
+The theoretical results in the paper have been formally verified in Lean 4.
+The formalization is pinned to ReasBook `v4.32.2`.
 
 To check the formalization, run:
 
@@ -80,8 +83,6 @@ cd ReasBook
 lake lean Papers/TR_LALM_theory.lean
 lake lean Papers/TR_LALM_theory/Paper.lean
 ```
-
-Lean contributor: [Zichen Wang](https://github.com/imathwy).
 
 ## Citation
 
@@ -108,7 +109,7 @@ Machine-readable citation metadata is provided in
 - Benqi Liu: [bqliu@pku.edu.cn](mailto:bqliu@pku.edu.cn)
 - Kangkang Deng: [freedeng1208@gmail.com](mailto:freedeng1208@gmail.com)
 - Zichen Wang: [zichenwang25@stu.pku.edu.cn](mailto:zichenwang25@stu.pku.edu.cn)
-- Zaiwen Wen (corresponding author): [wenzw@pku.edu.cn](mailto:wenzw@pku.edu.cn)
+- Zaiwen Wen: [wenzw@pku.edu.cn](mailto:wenzw@pku.edu.cn)
 
 ## License
 
