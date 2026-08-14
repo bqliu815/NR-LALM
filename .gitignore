@@ -18,6 +18,7 @@ dist/
 *.npz
 *.pdf
 *.png
+!docs/assets/tr_lalm_theorem_map.png
 
 !**/data/README.md
 !**/results/README.md

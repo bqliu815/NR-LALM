@@ -28,6 +28,9 @@ GENERATED_SUFFIXES = {
     ".tsv",
 }
 FORBIDDEN_NAMES = {"RELEASE_CHECKLIST.md"}
+ALLOWED_DOCUMENTATION_ARTIFACTS = {
+    Path("docs/assets/tr_lalm_theorem_map.png"),
+}
 INTERNAL_PATH_WORDS = {
     "audit",
     "development",
@@ -87,7 +90,10 @@ def main() -> None:
             issues.append(f"internal release file: {relative}")
         if relative_words & INTERNAL_PATH_WORDS:
             issues.append(f"internal development path: {relative}")
-        if path.suffix.lower() in GENERATED_SUFFIXES:
+        if (
+            path.suffix.lower() in GENERATED_SUFFIXES
+            and relative not in ALLOWED_DOCUMENTATION_ARTIFACTS
+        ):
             issues.append(f"generated artifact: {relative}")
         if path.stat().st_size > 5 * 1024 * 1024:
             issues.append(f"large file: {relative}")
