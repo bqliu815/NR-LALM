@@ -84,6 +84,8 @@ lake lean Papers/TR_LALM_theory.lean
 lake lean Papers/TR_LALM_theory/Paper.lean
 ```
 
+Lean contributor: [Zichen Wang](https://github.com/imathwy).
+
 ## Citation
 
 If you use the algorithms, theoretical formalization, or numerical software,
