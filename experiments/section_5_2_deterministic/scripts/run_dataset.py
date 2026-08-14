@@ -21,12 +21,12 @@ def main() -> None:
     parser.add_argument(
         "--config",
         type=Path,
-        default=EXPERIMENT_DIR / "configs" / "paper_stage_b_v2.json",
+        default=EXPERIMENT_DIR / "configs" / "paper_benchmark.json",
     )
     parser.add_argument(
         "--results-root",
         type=Path,
-        default=EXPERIMENT_DIR / "results" / "paper_stage_b",
+        default=EXPERIMENT_DIR / "results" / "paper_run",
     )
     parser.add_argument("--timeout", type=float, default=1800.0)
     parser.add_argument("--overwrite", action="store_true")
@@ -34,7 +34,7 @@ def main() -> None:
 
     config = json.loads(args.config.read_text(encoding="utf-8"))
     if not 0 <= args.dataset_index < len(config["datasets"]):
-        raise ValueError("dataset index is outside the Stage-B range")
+        raise ValueError("dataset index is outside the configured range")
     output_dir = args.results_root / f"dataset_{args.dataset_index}"
     output_dir.mkdir(parents=True, exist_ok=True)
     rows: list[dict[str, object]] = []

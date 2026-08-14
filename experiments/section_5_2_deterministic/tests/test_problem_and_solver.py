@@ -27,7 +27,7 @@ def test_paper_configuration_uses_pardisomkl() -> None:
     config_path = (
         Path(__file__).resolve().parents[1]
         / "configs"
-        / "paper_stage_b_v2.json"
+        / "paper_benchmark.json"
     )
     config = json.loads(config_path.read_text(encoding="utf-8"))
     assert config["ipopt"]["linear_solver"] == "pardisomkl"

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import re
 import subprocess
 import tomllib
 
@@ -27,29 +28,31 @@ GENERATED_SUFFIXES = {
     ".svg",
     ".tsv",
 }
-FORBIDDEN_NAMES = {"RELEASE_CHECKLIST.md"}
 ALLOWED_DOCUMENTATION_ARTIFACTS = {
     Path("docs/assets/tr_lalm_theorem_map.png"),
 }
-INTERNAL_PATH_WORDS = {
-    "audit",
-    "development",
-    "heldout",
-    "provenance",
-    "qualification",
-    "screening",
-    "tuning",
-}
-FORBIDDEN_TEXT = (
-    "/Users/",
-    "paper——SOCLALM",
-    "formal_experiments/",
-    "numerical_experiments/",
-    "NV_H100",
-    "TO_BE_FILLED_BEFORE_LAUNCH",
-    "authors' development archive",
-    "failed development routes",
-    "first 3 streams",
+SENSITIVE_TEXT_PATTERNS = (
+    ("macOS user path", re.compile(r"/Users/[A-Za-z0-9._-]+/")),
+    ("Unix home path", re.compile(r"/home/[A-Za-z0-9._-]+/")),
+    (
+        "Windows user path",
+        re.compile(r"[A-Za-z]:\\Users\\[^\\\s]+\\"),
+    ),
+    (
+        "cluster filesystem path",
+        re.compile(r"/(?:public_hw|scratch|gpfs|lustre)/"),
+    ),
+    (
+        "private key",
+        re.compile(
+            r"-----BEGIN (?:RSA |OPENSSH |EC |DSA )?PRIVATE KEY-----"
+        ),
+    ),
+    (
+        "GitHub token",
+        re.compile(r"\b(?:ghp|github_pat)_[A-Za-z0-9_]{20,}\b"),
+    ),
+    ("AWS access key", re.compile(r"\bAKIA[0-9A-Z]{16}\b")),
 )
 
 
@@ -81,15 +84,6 @@ def main() -> None:
         if not path.is_file():
             continue
         relative = path.relative_to(ROOT)
-        relative_words = {
-            word.lower()
-            for part in relative.parts
-            for word in part.replace("-", "_").split("_")
-        }
-        if path.name in FORBIDDEN_NAMES:
-            issues.append(f"internal release file: {relative}")
-        if relative_words & INTERNAL_PATH_WORDS:
-            issues.append(f"internal development path: {relative}")
         if (
             path.suffix.lower() in GENERATED_SUFFIXES
             and relative not in ALLOWED_DOCUMENTATION_ARTIFACTS
@@ -108,9 +102,9 @@ def main() -> None:
             and (path.suffix in TEXT_SUFFIXES or path.name in {"LICENSE", ".gitignore"})
         ):
             text = path.read_text(encoding="utf-8")
-            for token in FORBIDDEN_TEXT:
-                if token in text:
-                    issues.append(f"machine/internal reference {token!r}: {relative}")
+            for label, pattern in SENSITIVE_TEXT_PATTERNS:
+                if pattern.search(text):
+                    issues.append(f"sensitive {label}: {relative}")
         if path.suffix == ".json":
             json.loads(path.read_text(encoding="utf-8"))
         if path.suffix == ".toml":

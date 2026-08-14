@@ -2,7 +2,7 @@
 
 The experiment compares NR-LALM, NR-LALM+SOC, strict L-AL, and IPOPT on
 the 15 LIBSVM binary-classification data sets listed in
-`configs/paper_stage_b_v2.json`.
+`configs/paper_benchmark.json`.
 
 For every data set, the objective is binary logistic loss subject to ten
 seeded affine equalities and one sphere equality. Explicit sparse zeros are
@@ -16,7 +16,7 @@ All four methods start from the same exactly feasible point and use the same
 independent squared pair-KKT residual. The primary target is
 `R_k^2 <= 1e-8`; `1e-10` and `1e-12` are retained as sensitivity targets.
 NR-LALM, NR-LALM+SOC, and L-AL use the common parameters in
-`configs/paper_stage_b_v2.json`. IPOPT uses the PardisoMKL sparse direct
+`configs/paper_benchmark.json`. IPOPT uses the PardisoMKL sparse direct
 solver through an IPOPT build linked to Intel oneAPI Math Kernel Library.
 
 Each data set is run in one exclusive allocation. Every method is executed

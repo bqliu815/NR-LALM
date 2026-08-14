@@ -13,7 +13,7 @@ import pytest
 SCRIPT_DIR = Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from analyze_libsvm_suite_stage_b import (
+from analyze_results import (
     compare_methods,
     residual_identity_deviation,
     summarize,
@@ -111,7 +111,7 @@ def test_compare_methods_keeps_failures_in_denominator() -> None:
     )
 
 
-def test_end_to_end_stage_b_audit_on_balanced_synthetic_results(
+def test_end_to_end_analysis_on_balanced_synthetic_results(
     tmp_path: Path,
 ) -> None:
     methods = ["nr_lalm", "nr_lalm_soc", "l_al", "ipopt"]
@@ -236,7 +236,7 @@ def test_end_to_end_stage_b_audit_on_balanced_synthetic_results(
     completed = subprocess.run(
         [
             sys.executable,
-            str(SCRIPT_DIR / "analyze_libsvm_suite_stage_b.py"),
+            str(SCRIPT_DIR / "analyze_results.py"),
             "--config",
             str(config_path),
             "--results-root",

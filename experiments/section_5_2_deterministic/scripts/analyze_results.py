@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit and summarize eight-order LIBSVM Stage-B timing repeats."""
+"""Validate and summarize the balanced LIBSVM timing experiment."""
 
 from __future__ import annotations
 
@@ -891,7 +891,7 @@ def main() -> None:
             ) / len(timing_rows)
 
     summary = {
-        "schema": "libsvm_binary_suite_stage_b_summary_v1",
+        "schema": "libsvm_binary_suite_summary_v1",
         "created_utc": datetime.now(timezone.utc).isoformat(),
         "config_path": str(config_path),
         "config_sha256": config_hash,
