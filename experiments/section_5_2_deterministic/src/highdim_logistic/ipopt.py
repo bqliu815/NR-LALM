@@ -19,7 +19,7 @@ class IpoptConfig:
     acceptable_tolerance: float = 1.0e-8
     max_wall_seconds: float = 1800.0
     print_level: int = 0
-    linear_solver: str = "mumps"
+    linear_solver: str = "pardisomkl"
 
 
 class _Callbacks:

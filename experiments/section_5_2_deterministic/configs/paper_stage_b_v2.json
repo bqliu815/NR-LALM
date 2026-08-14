@@ -205,7 +205,7 @@
   },
   "ipopt": {
     "acceptable_tolerance": 1e-08,
-    "linear_solver": "mumps",
+    "linear_solver": "pardisomkl",
     "max_iterations": 200,
     "max_wall_seconds": 1800.0,
     "print_level": 0,

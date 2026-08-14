@@ -25,7 +25,7 @@ dependencies = [
 Repository = "https://github.com/bqliu815/NR-LALM"
 
 [project.optional-dependencies]
-ipopt = ["cyipopt>=1.4"]
+ipopt = ["cyipopt==1.6.1"]
 test = ["pytest>=8,<10"]
 
 [tool.setuptools]

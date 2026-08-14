@@ -115,7 +115,7 @@ def run_method(
                 ),
                 print_level=int(ipopt_values.get("print_level", 0)),
                 linear_solver=str(
-                    ipopt_values.get("linear_solver", "mumps")
+                    ipopt_values.get("linear_solver", "pardisomkl")
                 ),
             ),
             x0,

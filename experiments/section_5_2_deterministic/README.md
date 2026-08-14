@@ -54,5 +54,6 @@ The final LaTeX artifact is `libsvm_stage_b_median_timing_v4.tex`. The
 analyzer rejects incomplete task sets, inconsistent traces, and altered
 residual identities.
 
-IPOPT requires a working MUMPS-backed IPOPT and `cyipopt`; the other three
-methods use the included matrix-free/Woodbury implementation.
+The paper configuration uses IPOPT 3.14.19 with `linear_solver=pardisomkl`,
+linked to Intel oneAPI Math Kernel Library 2025.3.0 through `cyipopt` 1.6.1.
+The other three methods use the included matrix-free/Woodbury implementation.
