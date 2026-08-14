@@ -77,6 +77,9 @@ The theorem map is shown below. Click the image to open the interactive version.
 
 [![Theorem dependency map for the Lean formalization](docs/assets/tr_lalm_theorem_map.png)](https://optpku.github.io/ReasBook/theorem-maps/papers/tr_lalm_theory/)
 
+Interactive theorem map:
+https://optpku.github.io/ReasBook/theorem-maps/papers/tr_lalm_theory/
+
 To download and check only this formalization, run:
 
 ```bash
