@@ -9,7 +9,7 @@ The command downloads the official source archives and derives the 15 paper
 data sets:
 
 ```bash
-python experiments/section_5_2_deterministic/scripts/prepare_stage_b_data.py
+python experiments/section_5_2_deterministic/scripts/prepare_data.py
 ```
 
 Some official archives are very large even though the deterministic output
@@ -22,7 +22,7 @@ The intended execution is one exclusive CPU allocation per data set:
 
 ```bash
 cd experiments/section_5_2_deterministic
-sbatch scripts/slurm_stage_b.sbatch
+sbatch scripts/slurm_array.sbatch
 ```
 
 Set `PYTHON_EXE`, `CONFIG`, or `RESULTS_ROOT` in the environment to override
@@ -38,19 +38,19 @@ BLAS, OpenMP, MKL, NumExpr, and Accelerate are fixed to one.
 ## 3. Analyze and render the table
 
 ```bash
-python experiments/section_5_2_deterministic/scripts/analyze_libsvm_suite_stage_b.py \
-  --config experiments/section_5_2_deterministic/configs/paper_stage_b_v2.json \
-  --results-root experiments/section_5_2_deterministic/results/paper_stage_b \
-  --output-json experiments/section_5_2_deterministic/results/paper_stage_b/summary.json \
-  --output-csv experiments/section_5_2_deterministic/results/paper_stage_b/timings.csv
+python experiments/section_5_2_deterministic/scripts/analyze_results.py \
+  --config experiments/section_5_2_deterministic/configs/paper_benchmark.json \
+  --results-root experiments/section_5_2_deterministic/results/paper_run \
+  --output-json experiments/section_5_2_deterministic/results/paper_run/summary.json \
+  --output-csv experiments/section_5_2_deterministic/results/paper_run/timings.csv
 
-python experiments/section_5_2_deterministic/scripts/render_libsvm_suite_stage_b_outputs.py \
-  --summary experiments/section_5_2_deterministic/results/paper_stage_b/summary.json \
-  --output-dir experiments/section_5_2_deterministic/results/paper_stage_b/table \
+python experiments/section_5_2_deterministic/scripts/render_table.py \
+  --summary experiments/section_5_2_deterministic/results/paper_run/summary.json \
+  --output-dir experiments/section_5_2_deterministic/results/paper_run/table \
   --table-only
 ```
 
-The final LaTeX artifact is `libsvm_stage_b_median_timing_v4.tex`. The
+The final LaTeX artifact is `libsvm_median_timing_table.tex`. The
 analyzer rejects incomplete task sets, inconsistent traces, and altered
 residual identities.
 

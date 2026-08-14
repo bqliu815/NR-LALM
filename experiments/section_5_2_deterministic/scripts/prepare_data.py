@@ -18,7 +18,7 @@ def main() -> None:
     parser.add_argument(
         "--config",
         type=Path,
-        default=EXPERIMENT_DIR / "configs" / "paper_stage_b_v2.json",
+        default=EXPERIMENT_DIR / "configs" / "paper_benchmark.json",
     )
     parser.add_argument(
         "--manifest",

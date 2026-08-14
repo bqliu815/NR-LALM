@@ -12,18 +12,18 @@ Paper-facing output: `mechanism_verification.pdf`. The same run also writes a
 ## Section 5.2: deterministic public-data comparison
 
 Inputs: the 15-data-set paper manifest and
-`experiments/section_5_2_deterministic/configs/paper_stage_b_v2.json`.
+`experiments/section_5_2_deterministic/configs/paper_benchmark.json`.
 
 Pipeline:
 
-1. `prepare_stage_b_data.py` downloads and deterministically derives the 15
+1. `prepare_data.py` downloads and deterministically derives the 15
    high-dimensional data files.
-2. `run_stage_b_dataset.py` launches four fresh method processes under eight
-   balanced orders for one data set. `slurm_stage_b.sbatch` maps the 15 data
+2. `run_dataset.py` launches four fresh method processes under eight
+   balanced orders for one data set. `slurm_array.sbatch` maps the 15 data
    sets to an array job.
-3. `analyze_libsvm_suite_stage_b.py` validates all 480 method runs and writes
+3. `analyze_results.py` validates all 480 method runs and writes
    the timing summary.
-4. `render_libsvm_suite_stage_b_outputs.py --table-only` writes the LaTeX
+4. `render_table.py --table-only` writes the LaTeX
    timing table used in the paper.
 
 First-hit time includes the common independent KKT evaluator but excludes

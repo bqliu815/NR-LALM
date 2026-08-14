@@ -321,8 +321,8 @@ def render_figure(summary: dict[str, Any], output_dir: Path) -> list[Path]:
         axis.spines["right"].set_visible(False)
     figure.tight_layout(w_pad=1.2)
 
-    pdf_path = output_dir / "libsvm_stage_b_performance_v1.pdf"
-    png_path = output_dir / "libsvm_stage_b_performance_v1.png"
+    pdf_path = output_dir / "libsvm_performance_profile.pdf"
+    png_path = output_dir / "libsvm_performance_profile.png"
     figure.savefig(pdf_path, bbox_inches="tight", pad_inches=0.08)
     figure.savefig(
         png_path, dpi=300, bbox_inches="tight", pad_inches=0.08
@@ -349,7 +349,7 @@ def render_table(summary: dict[str, Any], output_dir: Path) -> Path:
         r"$\mathcal R_k^2\le10^{-8}$ over eight balanced runs.  Bold marks "
         r"the fastest successful method in each row; $\mathrm{TO}$ denotes "
         r"eight external timeouts.}",
-        r"\label{tab:libsvm-stage-b-timing}",
+        r"\label{tab:libsvm-timing}",
         r"\footnotesize",
         r"\setlength{\tabcolsep}{3pt}",
         r"\begin{tabular}{@{}lrrrrrr@{}}",
@@ -417,7 +417,7 @@ def render_table(summary: dict[str, Any], output_dir: Path) -> Path:
             r"\end{table}",
         ]
     )
-    table_path = output_dir / "libsvm_stage_b_median_timing_v4.tex"
+    table_path = output_dir / "libsvm_median_timing_table.tex"
     table_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return table_path
 
@@ -438,13 +438,13 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
     if not summary.get("passed", False):
-        raise ValueError("refusing to render an unpassed Stage-B audit")
+        raise ValueError("refusing to render an unvalidated benchmark")
     if (
         int(summary["expected_datasets"]) != 15
         or int(summary["expected_orders"]) != 8
         or int(summary["expected_methods"]) != 4
     ):
-        raise ValueError("unexpected Stage-B experiment shape")
+        raise ValueError("unexpected benchmark shape")
     if set(summary["method_summaries"]) != set(METHODS):
         raise ValueError("unexpected method set")
 
@@ -453,7 +453,7 @@ def main() -> None:
         outputs.extend(render_figure(summary, output_dir))
     outputs.append(render_table(summary, output_dir))
     if not args.table_only:
-        caption_path = output_dir / "libsvm_stage_b_figure_caption.tex"
+        caption_path = output_dir / "libsvm_performance_caption.tex"
         caption_path.write_text(
             (
                 r"\caption{Complete high-dimensional LIBSVM comparison. "
@@ -469,7 +469,7 @@ def main() -> None:
         outputs.append(caption_path)
     manifest_path = output_dir / "manifest.json"
     manifest = {
-        "schema": "libsvm_stage_b_paper_outputs_v4",
+        "schema": "libsvm_paper_outputs_v1",
         "created_utc": datetime.now(timezone.utc).isoformat(),
         "input_summary_path": str(summary_path),
         "input_summary_sha256": sha256(summary_path),

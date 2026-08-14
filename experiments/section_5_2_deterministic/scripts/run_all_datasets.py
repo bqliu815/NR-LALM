@@ -20,7 +20,7 @@ def main() -> None:
     for dataset_index in range(15):
         command = [
             sys.executable,
-            str(EXPERIMENT_DIR / "scripts" / "run_stage_b_dataset.py"),
+            str(EXPERIMENT_DIR / "scripts" / "run_dataset.py"),
             "--dataset-index",
             str(dataset_index),
             "--timeout",
