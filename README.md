@@ -73,6 +73,10 @@ from commands to paper artifacts.
 The theoretical results in the paper have been formally verified in Lean 4.
 The formalization is pinned to ReasBook `v4.32.2`.
 
+The theorem map is shown below. Click the image to open the interactive version.
+
+[![Theorem dependency map for the Lean formalization](docs/assets/tr_lalm_theorem_map.png)](https://optpku.github.io/ReasBook/theorem-maps/papers/tr_lalm_theory/)
+
 To download and check only this formalization, run:
 
 ```bash
