@@ -15,6 +15,9 @@ https://github.com/bqliu815/NR-LALM
 Lean formalization:
 https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook/Papers/TR_LALM_theory
 
+Paper source and compilation project on ReasLab:
+https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
+
 The repository contains source code and general-purpose run scripts. Generated
 data, run records, figures, tables, and cluster logs are not versioned.
 
