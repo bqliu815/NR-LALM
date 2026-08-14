@@ -1,8 +1,12 @@
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 import numpy as np
 from scipy import sparse
 
+from highdim_logistic.ipopt import IpoptConfig
 from highdim_logistic.problem import (
     SparseBinaryData,
     dimension_adaptive_affine_shape,
@@ -13,6 +17,20 @@ from highdim_logistic.solver import (
     _reduced_step,
     solve_nr_lalm,
 )
+
+
+def test_ipopt_default_matches_paper_backend() -> None:
+    assert IpoptConfig().linear_solver == "pardisomkl"
+
+
+def test_paper_configuration_uses_pardisomkl() -> None:
+    config_path = (
+        Path(__file__).resolve().parents[1]
+        / "configs"
+        / "paper_stage_b_v2.json"
+    )
+    config = json.loads(config_path.read_text(encoding="utf-8"))
+    assert config["ipopt"]["linear_solver"] == "pardisomkl"
 
 
 def toy_data(seed: int = 1, dimension: int = 80) -> SparseBinaryData:

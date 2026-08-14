@@ -102,9 +102,11 @@ python scripts/validate_release.py
 ```
 
 IPOPT is used only in Section 5.2. Reproducing the complete four-method table
-also requires a system IPOPT installation with MUMPS and a compatible
-`cyipopt` build. The other experiments and all non-IPOPT unit tests do not
-require it.
+requires IPOPT 3.14.19 with its PardisoMKL interface linked to Intel oneAPI
+Math Kernel Library 2025.3.0, together with `cyipopt` 1.6.1. Install that
+system solver stack first and then install the optional Python binding with
+`python -m pip install -e ".[ipopt]"`. The other experiments and all
+non-IPOPT unit tests do not require it.
 
 ## Quick numerical reproduction
 
