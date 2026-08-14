@@ -73,15 +73,22 @@ from commands to paper artifacts.
 The theoretical results in the paper have been formally verified in Lean 4.
 The formalization is pinned to ReasBook `v4.32.2`.
 
-To check the formalization, run:
+To download and check only this formalization, run:
 
 ```bash
-git clone https://github.com/optpku/ReasBook.git
+git clone --depth 1 --filter=blob:none --no-checkout --single-branch \
+  --branch v4.32.2 https://github.com/optpku/ReasBook.git
 cd ReasBook
+git sparse-checkout init --no-cone
+git sparse-checkout set \
+  '/ReasBook/lakefile.lean' \
+  '/ReasBook/lean-toolchain' \
+  '/ReasBook/lake-manifest.json' \
+  '/ReasBook/Papers/TR_LALM_theory/**'
 git checkout v4.32.2
 cd ReasBook
-lake lean Papers/TR_LALM_theory.lean
-lake lean Papers/TR_LALM_theory/Paper.lean
+lake exe cache get
+lake env lean Papers/TR_LALM_theory/Paper.lean
 ```
 
 Lean contributor: [Zichen Wang](https://github.com/imathwy).
