@@ -68,7 +68,6 @@ def lalm_config(values: dict[str, Any]) -> LALMConfig:
         decrease_ratio=float(values.get("decrease_ratio", 1.0)),
         decrease_factor=float(values.get("decrease_factor", 0.5)),
         max_iterations=int(values.get("max_iterations", 200)),
-        max_backtracks=int(values.get("max_backtracks", 60)),
         target_residual_squared=float(
             values.get("target_residual_squared", 1.0e-14)
         ),
