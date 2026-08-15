@@ -15,9 +15,6 @@ https://github.com/bqliu815/NR-LALM
 Lean project:
 https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook
 
-Paper-specific Lean source:
-https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook/Papers/TR_LALM_theory
-
 Complete project on ReasLab:
 https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
 
