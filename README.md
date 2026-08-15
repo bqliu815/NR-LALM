@@ -12,8 +12,8 @@ formally verified in Lean 4.
 Numerical code:
 https://github.com/bqliu815/NR-LALM
 
-Lean project:
-https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook
+Lean formalization:
+https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook/Papers/TR_LALM_theory
 
 Complete project on ReasLab:
 https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
@@ -78,8 +78,9 @@ from commands to paper artifacts.
 
 The theoretical results in the paper have been formally verified in Lean 4.
 The formalization is pinned to ReasBook `v4.32.2`.
-The Lean project root is the inner `ReasBook/` directory, which contains
-`lakefile.lean`, `lake-manifest.json`, and `lean-toolchain`.
+The link above opens the paper-specific source. For compilation, the Lean
+project root is the inner `ReasBook/` directory, which contains `lakefile.lean`,
+`lake-manifest.json`, and `lean-toolchain`.
 
 The theorem map is shown below. Click the image to open the interactive version.
 
