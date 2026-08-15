@@ -12,11 +12,17 @@ formally verified in Lean 4.
 Numerical code:
 https://github.com/bqliu815/NR-LALM
 
-Lean formalization:
+Lean project:
+https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook
+
+Paper-specific Lean source:
 https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook/Papers/TR_LALM_theory
 
-Paper source and compilation project on ReasLab:
+Complete project on ReasLab:
 https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
+
+The ReasLab project contains the LaTeX manuscript, the Python numerical
+experiments, and the Lean formalization.
 
 The repository contains source code and general-purpose run scripts. Generated
 data, run records, figures, tables, and cluster logs are not versioned.
@@ -75,6 +81,8 @@ from commands to paper artifacts.
 
 The theoretical results in the paper have been formally verified in Lean 4.
 The formalization is pinned to ReasBook `v4.32.2`.
+The Lean project root is the inner `ReasBook/` directory, which contains
+`lakefile.lean`, `lake-manifest.json`, and `lean-toolchain`.
 
 The theorem map is shown below. Click the image to open the interactive version.
 
@@ -94,6 +102,7 @@ git sparse-checkout set \
   '/ReasBook/lakefile.lean' \
   '/ReasBook/lean-toolchain' \
   '/ReasBook/lake-manifest.json' \
+  '/ReasBook/Papers/TR_LALM_theory.lean' \
   '/ReasBook/Papers/TR_LALM_theory/**'
 git checkout v4.32.2
 cd ReasBook
