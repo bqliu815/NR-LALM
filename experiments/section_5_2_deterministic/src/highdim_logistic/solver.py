@@ -15,7 +15,7 @@ Method = Literal["nr_lalm", "nr_lalm_soc", "l_al", "ipopt"]
 
 
 @dataclass(frozen=True)
-class DynamicBetaConfig:
+class LALMConfig:
     rho: float
     beta_floor: float
     beta_initial: float
@@ -309,7 +309,7 @@ def _finish(
     method: Method,
     status: str,
     message: str,
-    config: DynamicBetaConfig,
+    config: LALMConfig,
     trace: list[dict[str, float | int | None]],
     x: Array,
     multiplier: Array,
@@ -340,7 +340,7 @@ def _finish(
 
 def solve_nr_lalm(
     problem: SparseConstrainedLogistic,
-    config: DynamicBetaConfig,
+    config: LALMConfig,
     x0: Array,
     lambda0: Array,
     *,
@@ -674,7 +674,7 @@ def solve_nr_lalm(
 
 def solve_lal(
     problem: SparseConstrainedLogistic,
-    config: DynamicBetaConfig,
+    config: LALMConfig,
     x0: Array,
     lambda0: Array,
 ) -> SolverRun:

@@ -26,7 +26,7 @@ from highdim_logistic.problem import (
     make_instance,
 )
 from highdim_logistic.solver import (
-    DynamicBetaConfig,
+    LALMConfig,
     solve_lal,
     solve_nr_lalm,
 )
@@ -57,8 +57,8 @@ def write_checkpoint(
     )
 
 
-def dynamic_config(values: dict[str, Any]) -> DynamicBetaConfig:
-    return DynamicBetaConfig(
+def lalm_config(values: dict[str, Any]) -> LALMConfig:
+    return LALMConfig(
         rho=float(values["rho"]),
         beta_floor=float(values["beta_floor"]),
         beta_initial=float(values["beta_initial"]),
@@ -86,19 +86,19 @@ def run_method(
     problem: Any,
     x0: np.ndarray,
     lambda0: np.ndarray,
-    dynamic: DynamicBetaConfig,
+    solver_config: LALMConfig,
     ipopt_values: dict[str, Any],
 ) -> Any:
     if method == "nr_lalm":
         return solve_nr_lalm(
-            problem, dynamic, x0, lambda0, use_soc=False
+            problem, solver_config, x0, lambda0, use_soc=False
         )
     if method == "nr_lalm_soc":
         return solve_nr_lalm(
-            problem, dynamic, x0, lambda0, use_soc=True
+            problem, solver_config, x0, lambda0, use_soc=True
         )
     if method == "l_al":
-        return solve_lal(problem, dynamic, x0, lambda0)
+        return solve_lal(problem, solver_config, x0, lambda0)
     if method == "ipopt":
         return solve_ipopt(
             problem,
@@ -182,7 +182,7 @@ def main() -> None:
     save_final_states = bool(config.get("save_final_states", True))
     if save_final_states:
         finals_dir.mkdir(parents=True, exist_ok=True)
-    dynamic = dynamic_config(config["parameters"])
+    solver_config = lalm_config(config["parameters"])
     records: list[dict[str, Any]] = []
     payload: dict[str, Any] = {
         "schema": "highdim_sparse_constrained_logistic_v1",
@@ -247,7 +247,7 @@ def main() -> None:
                 instance.problem,
                 instance.x0,
                 instance.lambda0,
-                dynamic,
+                solver_config,
                 config.get("ipopt", {}),
             )
             runner_wall_seconds = perf_counter() - method_start

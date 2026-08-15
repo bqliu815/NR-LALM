@@ -13,7 +13,7 @@ from highdim_logistic.problem import (
     make_instance,
 )
 from highdim_logistic.solver import (
-    DynamicBetaConfig,
+    LALMConfig,
     _reduced_step,
     solve_nr_lalm,
 )
@@ -188,7 +188,7 @@ def test_matrix_free_woodbury_matches_explicit() -> None:
 
 def test_nr_and_soc_smoke() -> None:
     item = instance()
-    config = DynamicBetaConfig(
+    config = LALMConfig(
         rho=1.0,
         beta_floor=1.0e-4,
         beta_initial=1.0,

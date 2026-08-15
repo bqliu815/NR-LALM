@@ -7,11 +7,11 @@ from .problem import (
     load_libsvm_bz2,
     make_instance,
 )
-from .solver import DynamicBetaConfig, SolverRun, solve_lal, solve_nr_lalm
+from .solver import LALMConfig, SolverRun, solve_lal, solve_nr_lalm
 
 __all__ = [
-    "DynamicBetaConfig",
     "HighDimInstance",
+    "LALMConfig",
     "SolverRun",
     "SparseBinaryData",
     "SparseConstrainedLogistic",

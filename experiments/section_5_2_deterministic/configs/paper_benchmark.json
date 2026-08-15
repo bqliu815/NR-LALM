@@ -225,7 +225,6 @@
     "beta_initial": 10.0,
     "decrease_factor": 0.5,
     "decrease_ratio": 1.0,
-    "max_backtracks": 60,
     "max_iterations": 200,
     "maximum_linear_refinements": 1,
     "mu": 2.0,
