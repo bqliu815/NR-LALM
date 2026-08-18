@@ -92,7 +92,7 @@ https://optpku.github.io/ReasBook/theorem-maps/papers/tr_lalm_theory/
 A short walkthrough shows how to inspect the Lean formalization of Lemma 2.6,
 navigate its definitions, and use the ReasLab assistant as a reading aid:
 
-https://github.com/user-attachments/assets/51f43af9-d9a6-46b2-8491-7f458b7b2732
+https://github.com/user-attachments/assets/5850db61-c7b4-4f37-81c1-daba2dc85a63
 
 To download and check only this formalization, run:
 
