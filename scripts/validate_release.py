@@ -18,6 +18,7 @@ GENERATED_SUFFIXES = {
     ".jpg",
     ".jsonl",
     ".log",
+    ".mp4",
     ".npy",
     ".npz",
     ".out",
@@ -29,6 +30,7 @@ GENERATED_SUFFIXES = {
     ".tsv",
 }
 ALLOWED_DOCUMENTATION_ARTIFACTS = {
+    Path("docs/assets/lean_lemma_2_6_walkthrough.mp4"),
     Path("docs/assets/tr_lalm_theorem_map.png"),
 }
 SENSITIVE_TEXT_PATTERNS = (
@@ -89,7 +91,10 @@ def main() -> None:
             and relative not in ALLOWED_DOCUMENTATION_ARTIFACTS
         ):
             issues.append(f"generated artifact: {relative}")
-        if path.stat().st_size > 5 * 1024 * 1024:
+        if (
+            path.stat().st_size > 5 * 1024 * 1024
+            and relative not in ALLOWED_DOCUMENTATION_ARTIFACTS
+        ):
             issues.append(f"large file: {relative}")
         if "__pycache__" in path.parts or path.suffix in {".pyc", ".pyo"}:
             issues.append(f"generated Python file: {relative}")
