@@ -5,7 +5,17 @@ This repository accompanies the paper
 *A Fixed-Penalty Linearized Augmented Lagrangian Method with Classical
 Multiplier Updates*.
 
-It contains the code needed to reproduce the numerical experiments in
+Alacaoglu and Wright highlighted an important open problem: for deterministic
+nonconvex programs with nonlinear constraints, establish the best-known
+$\mathcal O(\bar{\varepsilon}^{-3})$ complexity for an augmented Lagrangian
+method using large dual step sizes and a constant penalty that is independent
+of the target accuracy $\varepsilon$. In the smooth nonlinear
+equality-constrained setting considered here, NR-LALM answers this question
+within a linearized primal framework. It retains the classical multiplier
+update and, with a fixed, accuracy-independent penalty, attains
+$\mathcal O(\varepsilon^{-2})$ iteration and first-order-oracle complexity.
+
+This repository contains the code needed to reproduce the numerical experiments in
 Sections 5.1--5.3. The theoretical results in the paper have also been
 formally verified in Lean 4.
 
