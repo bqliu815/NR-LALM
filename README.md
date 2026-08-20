@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/c60f1898-a030-4a73-a407-6091366adfdd
+
 # NR-LALM: reproducible numerical experiments and formal verification
 
 This repository accompanies the paper
