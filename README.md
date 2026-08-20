@@ -15,8 +15,8 @@ within a linearized primal framework. It retains the classical multiplier
 update and, with a fixed, accuracy-independent penalty, attains
 $\mathcal O(\varepsilon^{-2})$ iteration and first-order-oracle complexity.
 
-This repository contains the code needed to reproduce the numerical experiments in
-Sections 5.1--5.3. The theoretical results in the paper have also been
+This repository contains the code needed to reproduce the numerical
+experiments in Sections 5.1--5.3. The theoretical results in the paper have also been
 formally verified in Lean 4.
 
 Numerical code:
