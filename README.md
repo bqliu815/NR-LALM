@@ -16,8 +16,8 @@ update and, with a fixed, accuracy-independent penalty, attains
 $\mathcal O(\varepsilon^{-2})$ iteration and first-order-oracle complexity.
 
 This repository contains the code needed to reproduce the numerical
-experiments in Sections 5.1--5.3. The theoretical results in the paper have also been
-formally verified in Lean 4.
+experiments in Sections 5.1--5.3. The theoretical results in the paper have
+also been formally verified in Lean 4.
 
 Numerical code:
 https://github.com/bqliu815/NR-LALM
