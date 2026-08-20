@@ -97,7 +97,7 @@ A short walkthrough shows how to compare a manuscript statement with its Lean
 formalization, navigate definitions in ReasLab, and inspect a Quokka-generated
 Lean project:
 
-https://github.com/user-attachments/assets/398494e4-f389-47c7-8066-344f93832f47
+https://github.com/user-attachments/assets/9e8a64bb-4e81-41de-b6b7-434b79ef4cce
 
 The formalization can be accessed and checked in either of two ways.
 
