@@ -21,9 +21,6 @@ https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
 The ReasLab project contains the LaTeX manuscript, the Python numerical
 experiments, and the Lean formalization.
 
-The repository contains source code and general-purpose run scripts. Generated
-data, run records, figures, tables, and cluster logs are not versioned.
-
 ## Repository contents
 
 | Paper part | Directory | Paper-facing output |
