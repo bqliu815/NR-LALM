@@ -78,9 +78,6 @@ from commands to paper artifacts.
 
 The theoretical results in the paper have been formally verified in Lean 4.
 The formalization is pinned to ReasBook `v4.32.2`.
-The link above opens the paper-specific source. For compilation, the Lean
-project root is the inner `ReasBook/` directory, which contains `lakefile.lean`,
-`lake-manifest.json`, and `lean-toolchain`.
 
 The theorem map is shown below. Click the image to open the interactive version.
 
@@ -95,7 +92,11 @@ Lean project:
 
 https://github.com/user-attachments/assets/398494e4-f389-47c7-8066-344f93832f47
 
-To download and check only this formalization, run:
+The formalization can be accessed and checked in either of two ways.
+
+1. **Download the pinned ReasBook source and check it locally.** The following
+   sparse checkout downloads the paper-specific source together with the shared
+   Lean project files:
 
 ```bash
 git clone --depth 1 --filter=blob:none --no-checkout --single-branch \
@@ -113,6 +114,14 @@ cd ReasBook
 lake exe cache get
 lake env lean Papers/TR_LALM_theory/Paper.lean
 ```
+
+2. **Open the complete project directly in ReasLab.**
+
+   https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
+
+   The browser project contains the LaTeX manuscript, the Python numerical
+   experiments, and the Lean formalization. Its `lean` directory is the Lake
+   project root and can be inspected with the Lean Infoview.
 
 Lean contributor: [Zichen Wang](https://github.com/imathwy).
 
