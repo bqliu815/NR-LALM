@@ -89,8 +89,9 @@ The theorem map is shown below. Click the image to open the interactive version.
 Interactive theorem map:
 https://optpku.github.io/ReasBook/theorem-maps/papers/tr_lalm_theory/
 
-A short walkthrough shows how to inspect the Lean formalization of Lemma 2.6,
-navigate its definitions, and use the ReasLab assistant as a reading aid:
+A short walkthrough shows how to compare a manuscript statement with its Lean
+formalization, navigate definitions in ReasLab, and inspect a Quokka-generated
+Lean project:
 
 https://github.com/user-attachments/assets/398494e4-f389-47c7-8066-344f93832f47
 
