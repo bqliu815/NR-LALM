@@ -28,8 +28,7 @@ https://github.com/optpku/ReasBook/tree/v4.32.2/ReasBook/Papers/TR_LALM_theory
 Complete project on ReasLab:
 https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
 
-The ReasLab project contains the LaTeX manuscript, the Python numerical
-experiments, and the Lean formalization.
+The ReasLab project contains the LaTeX manuscript and the Lean formalization.
 
 ## Repository contents
 
@@ -126,8 +125,7 @@ lake env lean Papers/TR_LALM_theory/Paper.lean
 
    https://reaslab.io/share/w58YAU-8Rh-x_M7Xshn5WwR6df839.MTc.YWxs
 
-   The browser project contains the LaTeX manuscript, the Python numerical
-   experiments, and the Lean formalization. Its `lean` directory is the Lake
+   The browser project contains the LaTeX manuscript and the Lean formalization. Its `lean` directory is the Lake
    project root and can be inspected with the Lean Infoview.
 
 Lean contributor: [Zichen Wang](https://github.com/imathwy).
