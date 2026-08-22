@@ -26,4 +26,9 @@ preferred-citation:
       given-names: Zichen
     - family-names: Wen
       given-names: Zaiwen
+  identifiers:
+    - type: other
+      value: "arXiv:2608.19847"
+      description: "arXiv preprint identifier"
+  url: "https://arxiv.org/abs/2608.19847"
   year: 2026

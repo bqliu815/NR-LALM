@@ -5,6 +5,9 @@ This repository accompanies the paper
 *A Fixed-Penalty Linearized Augmented Lagrangian Method with Classical
 Multiplier Updates*.
 
+Paper:
+https://arxiv.org/abs/2608.19847
+
 Alacaoglu and Wright highlighted an important open problem: for deterministic
 nonconvex programs with nonlinear constraints, establish the best-known
 $\mathcal O(\bar{\varepsilon}^{-3})$ complexity for an augmented Lagrangian
@@ -133,20 +136,26 @@ Lean contributor: [Zichen Wang](https://github.com/imathwy).
 ## Citation
 
 If you use the algorithms, theoretical formalization, or numerical software,
-please cite the accompanying paper. Until the arXiv record is available, use
-the following preprint entry:
+please cite the accompanying paper:
 
 ```bibtex
 @misc{LiuDengWangWen2026NRLALM,
-  author = {Benqi Liu and Kangkang Deng and Zichen Wang and Zaiwen Wen},
-  title  = {A Fixed-Penalty Linearized Augmented Lagrangian Method with
-            Classical Multiplier Updates},
-  year   = {2026},
-  note   = {Preprint}
+  author        = {Benqi Liu and Kangkang Deng and Zichen Wang and Zaiwen Wen},
+  title         = {A Fixed-Penalty Linearized Augmented Lagrangian Method with
+                   Classical Multiplier Updates},
+  year          = {2026},
+  eprint        = {2608.19847},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.OC},
+  url           = {https://arxiv.org/abs/2608.19847}
 }
 ```
 
-The arXiv identifier and URL will be added after the preprint is posted.
+The arXiv abstract and PDF are available at:
+
+- https://arxiv.org/abs/2608.19847
+- https://arxiv.org/pdf/2608.19847
+
 Machine-readable citation metadata is provided in
 [`CITATION.cff`](CITATION.cff).
 
